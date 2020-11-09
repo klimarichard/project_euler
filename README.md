@@ -446,3 +446,34 @@ The lexicographic permutations of `0`, `1` and `2` are:
 
 What is the millionth lexicographic permutation of the digits `0`, `1`, `2`, `3`, `4`,
 `5`, `6`, `7`, `8` and `9`?
+
+### 25 - 1000-digit Fibonacci number
+The Fibonacci sequence is defined by the recurrence relation:
+
+<p align="center">
+<code>F<sub>n</sub> = F<sub>n−1</sub> + F<sub>n−2</sub></code>, where
+<code>F<sub>1</sub> = 1</code> and <code>F<sub>2</sub> = 1</code>.
+</p>
+
+Hence the first 12 terms will be:
+<ul>
+<li><code>F<sub>1</sub> = 1</code></li>
+<li><code>F<sub>2</sub> = 1</code></li>
+<li><code>F<sub>3</sub> = 2</code></li>
+<li><code>F<sub>4</sub> = 3</code></li>
+<li><code>F<sub>5</sub> = 5</code></li>
+<li><code>F<sub>6</sub> = 8</code></li>
+<li><code>F<sub>7</sub> = 13</code></li>
+<li><code>F<sub>8</sub> = 21</code></li>
+<li><code>F<sub>9</sub> = 34</code></li>
+<li><code>F<sub>10</sub> = 55</code></li>
+<li><code>F<sub>11</sub> = 89</code></li>
+<li><code>F<sub>12</sub> = 144</code></li>
+</ul>
+
+<p align="center">
+The 12th term, <code>F<sub>12</sub></code>, is the first term to contain three digits.
+</p>
+
+What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
+
