@@ -66,7 +66,7 @@ What is the 10 001st prime number?
 The four adjacent digits in the 1000-digit number that have the greatest product
 are `9 × 9 × 8 × 9 = 5832`.
 
-<p align="center" style="font-family:monospace;">
+<p align="center" style="font-family:courier;">
 73167176531330624919225119674426574742355349194934</br>
 96983520312774506326239578318016984801869478851843</br>
 85861560789112949495459501737958331952853208805511</br>
@@ -113,23 +113,19 @@ Find the sum of all the primes below two million.
 
 ### 11 - Largest product in a grid
 In the `20×20` grid below, four numbers along a diagonal line have been marked
-red.
+bold.
 
-<p align="center" style="font-family:monospace;">
+<p align="center" style="font-family:courier;">
 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08<br />
 49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00<br />
 81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65<br />
 52 70 95 23 04 60 11 42 69 24 68 56 01 32 56 71 37 02 36 91<br />
 22 31 16 71 51 67 63 89 41 92 36 54 22 40 40 28 66 33 13 80<br />
 24 47 32 60 99 03 45 02 44 75 33 53 78 36 84 20 35 17 12 50<br />
-32 98 81 28 64 23 67 10 <font color="red"><b>26</b></font> 38 40 67 59 54
-70 66 18 38 64 70<br />
-67 26 20 68 02 62 12 20 95 <font color="red"><b>63</b></font> 94 39 63 08
-40 91 66 49 94 21<br />
-24 55 58 05 66 73 99 26 97 17 <font color="red"><b>78</b></font> 78 96 83
-14 88 34 89 63 72<br />
-21 36 23 09 75 00 76 44 20 45 35 <font color="red"><b>14</b></font> 00 61
-33 97 34 31 33 95<br />
+32 98 81 28 64 23 67 10 <b>26</b> 38 40 67 59 54 70 66 18 38 64 70<br />
+67 26 20 68 02 62 12 20 95 <b>63</b> 94 39 63 08 40 91 66 49 94 21<br />
+24 55 58 05 66 73 99 26 97 17 <b>78</b> 78 96 83 14 88 34 89 63 72<br />
+21 36 23 09 75 00 76 44 20 45 35 <b>14</b> 00 61 33 97 34 31 33 95<br />
 78 17 53 28 22 75 31 67 15 94 03 80 04 62 16 14 09 53 56 92<br />
 16 39 05 42 96 35 31 47 55 58 88 24 00 17 54 24 36 29 85 57<br />
 86 56 00 48 35 71 89 07 05 44 44 37 44 60 21 58 51 54 17 58<br />
@@ -173,7 +169,7 @@ divisors?
 Work out the first ten digits of the sum of the following one-hundred 50-digit
 numbers.
 
-<p align="center" style="font-family:monospace;">
+<p align="center" style="font-family:courier;">
 37107287533902102798797998220837590246510135740250</br>
 46376937677490009712648124896970078050417018260538</br>
 91942213363574161572522430563301811072406154908250</br>
@@ -334,7 +330,7 @@ in words, how many letters would be used?\
 By starting at the top of the triangle below and moving to adjacent numbers on
 the row below, the maximum total from top to bottom is `23`.
 
-<p align="center" style="font-family:monospace;">
+<p align="center" style="font-family:courier;">
 <font color="red"><b>3</b></font></br>
 <font color="red"><b>7</b></font> 4</br>
 2 <font color="red"><b>4</b></font> 6</br>
@@ -345,7 +341,7 @@ That is, `3 + 7 + 4 + 9 = 23`.\
 \
 Find the maximum total from top to bottom of the triangle below:
 
-<p align="center" style="font-family:monospace;">
+<p align="center" style="font-family:courier;">
 75<br />
 95 64<br />
 17 47 82<br />
