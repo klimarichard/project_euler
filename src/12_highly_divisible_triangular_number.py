@@ -9,6 +9,7 @@ def divisors(n):
     """
     divs = [x for x in range(1, round(math.sqrt(n)) + 1) if n % x == 0]
     divs += [n // x for x in divs]
+    divs = list(set(divs))
     divs.sort()
 
     return len(divs)

@@ -1,6 +1,6 @@
 def fibs(n):
     """
-    Generates list of Fibonacci numbers upto given bound.
+    Generates list of Fibonacci numbers up to given bound.
     :param n: upper bound
     :return: list of Fibonacci numbers lesser than given bound
     """
