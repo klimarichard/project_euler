@@ -24,7 +24,7 @@ def get_alphabetical_value(name):
 
 names = []
 
-with open('../../res/p022_names.txt', "r") as f:
+with open('../res/p022_names.txt', "r") as f:
     line = f.readline()
 
     while line:
