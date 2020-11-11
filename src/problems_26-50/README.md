@@ -120,3 +120,33 @@ As <code>1 = 1<sup>4</sup></code> is not a sum it is not included.
 The sum of these numbers is `1634 + 8208 + 9474 = 19316`.
 
 Find the sum of all the numbers that can be written as the sum of fifth powers of their digits.
+
+### 31 - Coin sums
+In the United Kingdom the currency is made up of pound (£) and pence (p). There are
+eight coins in general circulation:
+
+<p align="center">
+<code>1p</code>, <code>2p</code>, <code>5p</code>, <code>10p</code>, <code>20p</code>,
+<code>50p</code>, <code>£1 (100p)</code>, and <code>£2 (200p)</code>.
+</p>
+
+It is possible to make `£2` in the following way:
+
+<p align="center">
+<code>1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p</code>
+</p>
+
+How many different ways can `£2` be made using any number of coins?
+
+### 32 - Pandigital products
+We shall say that an `n`-digit number is pandigital if it makes use of all the digits
+`1` to `n` exactly once; for example, the `5`-digit number, `15234`, is `1` through `5`
+pandigital.\
+\
+The product `7254` is unusual, as the identity, `39 × 186 = 7254`, containing
+multiplicand, multiplier, and product is `1` through `9` pandigital.\
+\
+Find the sum of all products whose multiplicand/multiplier/product identity can be
+written as a `1` through `9` pandigital.\
+**HINT**: Some products can be obtained in more than one way so be sure to only include
+it once in your sum.
