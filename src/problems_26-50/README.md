@@ -277,3 +277,32 @@ a triangle number then we shall call the word a triangle word.
 Using [p042_words.txt](../../res/p042_words.txt), a 16K text file
 containing nearly two-thousand common English words, how many are triangle
 words?
+
+### 43 - Sub-string divisibility
+The number, `1406357289`, is a `0` to `9` pandigital number because it is made up of
+each of the digits `0` to `9` in some order, but it also has a rather interesting
+sub-string divisibility property.
+
+<p>
+Let <code>d<sub>1</sub></code> be the 1st digit, <code>d<sub>2</sub></code> be the
+2nd digit, and so on. In this way, we note the following:
+</p>
+
+<p align="center">
+<code>d<sub>2</sub>d<sub>3</sub>d<sub>4</sub>=406</code> is divisible by
+<code>2</code><br>
+<code>d<sub>3</sub>d<sub>4</sub>d<sub>5</sub>=063</code> is divisible by
+<code>3</code><br>
+<code>d<sub>4</sub>d<sub>5</sub>d<sub>6</sub>=635</code> is divisible by
+<code>5</code><br>
+<code>d<sub>5</sub>d<sub>6</sub>d<sub>7</sub>=357</code> is divisible by
+<code>7</code><br>
+<code>d<sub>6</sub>d<sub>7</sub>d<sub>8</sub>=572</code> is divisible by
+<code>11</code><br>
+<code>d<sub>7</sub>d<sub>8</sub>d<sub>9</sub>=728</code> is divisible by
+<code>13</code><br>
+<code>d<sub>8</sub>d<sub>9</sub>d<sub>10</sub>=289</code> is divisible by
+<code>17</code><br>
+</p>
+
+Find the sum of all `0` to `9` pandigital numbers with this property.
