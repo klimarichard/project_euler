@@ -227,10 +227,10 @@ def sum_of_proper_divisors(divisors):
 Finds, if all elements of given list are pairwise distinct.
 ##### Implementation
 ```python
-def distinct(digits):
-    for i in range(len(digits)):
-        for j in range(i + 1, len(digits)):
-            if digits[i] == digits[j]:
+def distinct(numbers):
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] == numbers[j]:
                 return False
 
     return True

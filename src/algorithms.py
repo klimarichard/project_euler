@@ -198,15 +198,15 @@ def sum_of_proper_divisors(divisors):
 # LIST ALGORITHMS
 # ---------------
 
-def distinct(digits):
+def distinct(numbers):
     """
-    Finds, if all digits in given list are pairwise distinct.
-    :param digits: list of digits
-    :return: True, if all digits are pairwise distinct, False, otherwise
+    Finds, if all numbers in given list are pairwise distinct.
+    :param numbers: list of numbers
+    :return: True, if all numbers are pairwise distinct, False, otherwise
     """
-    for i in range(len(digits)):
-        for j in range(i + 1, len(digits)):
-            if digits[i] == digits[j]:
+    for i in range(len(numbers)):
+        for j in range(i + 1, len(numbers)):
+            if numbers[i] == numbers[j]:
                 return False
 
     return True
