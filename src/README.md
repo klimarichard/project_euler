@@ -3,9 +3,9 @@ The `algorithms.py` file contains reusable algorithms used throughout the soluti
 Within descriptions of some algorithms are time references for measuring the algorithms
 computing power on some small and some large data.
 
-- [Mathematical algorithms](mathematical-algorithms)
-- [List algorithms](list-algorithms)
-- [String algorithms](string-algorithms)
+- [Mathematical algorithms](#mathematical-algorithms)
+- [List algorithms](#list-algorithms)
+- [String algorithms](#string-algorithms)
 
 ## Mathematical algorithms
 
