@@ -4,7 +4,6 @@ def find_digit_cancelling_fractions():
     in the numerator and denominator
     :return: final product of all four digit cancelling fractions
     """
-    dcf = []
     num = 1
     denom = 1
 
