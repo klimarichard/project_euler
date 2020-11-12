@@ -230,3 +230,28 @@ If `p` is the perimeter of a right angle triangle with integral length sides,
 </p>
 
 For which value of `p ≤ 1000`, is the number of solutions maximised?
+
+### 40 - Champernowne's constant
+An irrational decimal fraction is created by concatenating the positive integers:
+
+<p align="center">
+<code>0.12345678910<b>1</b>112131415161718192021...</code>
+</p>
+
+It can be seen that the 12<sup>th</sup> digit of the fractional part is `1`.
+
+<p>
+If <code>d<sub>n</sub></code> represents the n<sup>th</sup> digit of the fractional part,
+find the value of the following expression:
+</p>
+
+<p align="center">
+<code>d<sub>1</sub> × d<sub>10</sub> × d<sub>100</sub> × d<sub>1000</sub> ×
+d<sub>10000</sub> × d<sub>100000</sub> × d<sub>1000000</sub></code>
+</p>
+
+### 41 - Pandigital prime
+We shall say that an `n`-digit number is pandigital if it makes use of all the digits
+`1` to `n` exactly once. For example, `2143` is a `4`-digit pandigital and is also prime.\
+\
+What is the largest `n`-digit pandigital prime that exists?
