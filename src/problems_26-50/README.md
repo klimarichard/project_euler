@@ -190,3 +190,43 @@ Find the sum of all numbers, less than one million, which are palindromic in bas
 and base `2`.\
 \
 (Please note that the palindromic number, in either base, may not include leading zeros.)
+
+### 37 - Truncatable primes
+The number `3797` has an interesting property. Being prime itself, it is possible
+to continuously remove digits from left to right, and remain prime at each stage:
+`3797`, `797`, `97`, and `7`. Similarly we can work from right to left:
+`3797`, `379`, `37`, and `3`.\
+\
+Find the sum of the only eleven primes that are both truncatable from left to right
+and right to left.\
+\
+**NOTE:** `2`, `3`, `5`, and `7` are not considered to be truncatable primes.
+
+### 38 - Pandigital multiples
+Take the number `192` and multiply it by each of `1`, `2`, and `3`:
+
+<p align="center">
+<code>192 × 1 = 192</code><br>
+<code>192 × 2 = 384</code><br>
+<code>192 × 3 = 576</code>
+</p>
+
+By concatenating each product we get the `1` to `9` pandigital, `192384576`. We will
+call `192384576` the concatenated product of `192` and `(1,2,3)`.\
+\
+The same can be achieved by starting with `9` and multiplying by `1`, `2`, `3`, `4`,
+and `5`, giving the pandigital, `918273645`, which is the concatenated product of `9`
+and `(1,2,3,4,5)`.
+
+What is the largest `1` to `9` pandigital 9-digit number that can be formed as
+the concatenated product of an integer with `(1,2, ... , n)` where `n > 1`?
+
+### 39 - Integer right triangles
+If `p` is the perimeter of a right angle triangle with integral length sides,
+`{a,b,c}`, there are exactly three solutions for `p = 120`.
+
+<p align="center">
+<code>{20,48,52}</code>, <code>{24,45,51}</code>, <code>{30,40,50}</code>
+</p>
+
+For which value of `p ≤ 1000`, is the number of solutions maximised?
