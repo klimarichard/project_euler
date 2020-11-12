@@ -5,6 +5,7 @@ computing power on some small and some large data.
 
 - [Mathematical algorithms](mathematical-algorithms)
 - [List algorithms](list-algorithms)
+- [String algorithms](string-algorithms)
 
 ## Mathematical algorithms
 
@@ -215,4 +216,30 @@ def product(ls):
         result *= ls[i]
 
     return result
+```
+
+
+## String algorithms
+
+### Delete quotes
+Deletes quotes surrounding a string from all strings in a list.
+##### Implementation
+```python
+def delete_quotes(names):
+    return [name[1:-1] for name in names]
+```
+
+
+### Alphabetical value
+Returns alphabetical value of a word, e. g. `SKY = 19 + 11 + 25 = 55`.
+##### Implementation
+```python
+def get_alphabetical_value(name):
+    values = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    value = 0
+
+    for i in range(len(name)):
+        value += values.index(name[i])
+
+    return value
 ```

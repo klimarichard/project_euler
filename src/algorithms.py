@@ -134,6 +134,18 @@ def next_permutation(current_perm):
     return current_perm
 
 
+def palindrome(n):
+    """
+    Finds, if given number is palindromic (with no leading zeros).
+    :param n: an integer (in any base)
+    :return: True, if given number is palindromic, False, otherwise
+    """
+    if str(n) == "".join(reversed(str(n))):
+        return True
+    else:
+        return False
+
+
 def sum_of_digits(n):
     """
     Returns sum of digits of given number.
@@ -190,13 +202,26 @@ def product(ls):
 # -----------------
 
 
-def palindrome(n):
+def delete_quotes(names):
     """
-    Finds, if given number is palindromic (with no leading zeros).
-    :param n: an integer (in any base)
-    :return: True, if given number is palindromic, False, otherwise
+    Delete quotes from names in a list of names.
+    :param names: list of names
+    :return: list of raw names
     """
-    if str(n) == "".join(reversed(str(n))):
-        return True
-    else:
-        return False
+    return [name[1:-1] for name in names]
+
+
+def get_alphabetical_value(name):
+    """
+    Returns alphabetical value of a given name.
+    :param name: a string
+    :return: alphabetical value of name
+    """
+    values = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    value = 0
+
+    for i in range(len(name)):
+        value += values.index(name[i])
+
+    return value
+
