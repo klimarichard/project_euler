@@ -1,18 +1,4 @@
-def collatz(n):
-    """
-    Returns Collatz sequence for given number.
-    :param n: an integer
-    :return: Collatz sequence for given integer
-    """
-    seq = [n]
-
-    while seq[-1] != 1:
-        if seq[-1] % 2 == 0:
-            seq.append(seq[-1] // 2)
-        else:
-            seq.append(3 * seq[-1] + 1)
-
-    return seq
+from algorithms import collatz
 
 
 def longest_collatz(upper, lower=1):

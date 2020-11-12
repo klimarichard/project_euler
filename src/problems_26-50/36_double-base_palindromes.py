@@ -1,3 +1,6 @@
+from algorithms import palindrome
+
+
 def find_double_based_palindromes(n):
     """
     Find double-based palindromes in given range.
@@ -14,18 +17,6 @@ def find_double_based_palindromes(n):
                 dbp.append(i)
 
     return dbp
-
-
-def palindrome(n):
-    """
-    Finds, if given number is palindromic (with no leading zeros).
-    :param n: an integer (in any base)
-    :return: True, if given number is palindromic, False, otherwise
-    """
-    if str(n) == "".join(reversed(str(n))):
-        return True
-    else:
-        return False
 
 
 print(sum(find_double_based_palindromes(1000000)))

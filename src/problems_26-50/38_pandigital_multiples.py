@@ -1,3 +1,6 @@
+from algorithms import distinct
+
+
 def find_maximum_pandigital_multiple():
     """
     Finds the maximum concatenated product of an integer with (1, 2, ..., n), where n > 1,
@@ -47,20 +50,6 @@ def find_maximum_pandigital_multiple():
             max_pandigital = current_pan
 
     return max_pandigital
-
-
-def distinct(digits):
-    """
-    Finds, if all digits in given list are pairwise distinct.
-    :param digits: list of digits
-    :return: True, if all digits are pairwise distinct, False, otherwise
-    """
-    for i in range(len(digits)):
-        for j in range(i + 1, len(digits)):
-            if digits[i] == digits[j]:
-                return False
-
-    return True
 
 
 print(int("".join([str(x) for x in find_maximum_pandigital_multiple()])))

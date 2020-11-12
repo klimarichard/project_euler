@@ -1,7 +1,7 @@
 from datetime import datetime
 
 
-def count_sundays_1st(start_date, end_date=datetime.today(), first=next_first(start_date)):
+def count_sundays_1st(start_date, end_date=datetime.today()):
     """
     Count Sundays that fell on the first of the month during given time period.
     :param start_date: start date of the period
@@ -12,7 +12,7 @@ def count_sundays_1st(start_date, end_date=datetime.today(), first=next_first(st
     if start_date.day == 1:
         next = start_date
     else:
-        next = first
+        next = next_first(start_date)
 
     while is_before(next, end_date):
         if next.weekday() == 6:

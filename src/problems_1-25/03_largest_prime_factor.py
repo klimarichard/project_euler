@@ -1,29 +1,23 @@
-import math
+from algorithms import divisors
 
 
-def divisors(n):
+def find_largest_prime_factor(n):
     """
-    Returns list of divisors of given number.
+    Find the largest prime factor of given number.
     :param n: an integer
-    :return: list of divisors
+    :return: largest prime factor of n
     """
-    divs = [x for x in range(1, round(math.sqrt(n)) + 1) if n % x == 0]
-    divs += [n // x for x in divs]
-    divs.sort()
+    divs = divisors(n)
 
-    return divs
+    current_divs = divs.copy()
+    i = len(divs) - 2
+
+    while len(current_divs) > 2:
+        current = divs[i]
+        current_divs = [x for x in divs if current % x == 0]
+        i -= 1
+
+    return current_divs[1]
 
 
-NUMBER = 600851475143
-
-divs = divisors(NUMBER)
-
-current_divs = divs.copy()
-i = len(divs) - 2
-
-while len(current_divs) > 2:
-    current = divs[i]
-    current_divs = [x for x in divs if current % x == 0]
-    i -= 1
-
-print(current_divs[1])
+print(find_largest_prime_factor(600851475143))

@@ -9,3 +9,6 @@ venv.bak/
 
 # idea project
 .idea/
+
+# testing script
+/src/testing.py

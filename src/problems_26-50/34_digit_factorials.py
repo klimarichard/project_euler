@@ -1,3 +1,6 @@
+from algorithms import fact
+
+
 def find_digit_factorials():
     """
     Find all numbers which are equal to the sum of the factorial of their digits.
@@ -13,18 +16,6 @@ def find_digit_factorials():
             df.append(i)
 
     return df
-
-
-def fact(n):
-    """
-    Computes factorial of given number.
-    :param n: an integer
-    :return: a factorial of n
-    """
-    if n == 0:
-        return 1
-    else:
-        return n * fact(n - 1)
 
 
 print(sum(find_digit_factorials()))

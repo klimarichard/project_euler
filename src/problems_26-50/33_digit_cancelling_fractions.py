@@ -1,3 +1,6 @@
+from algorithms import gcd
+
+
 def find_digit_cancelling_fractions():
     """
     Find product of all four digit cancelling fractions less than one in size with two digits
@@ -15,24 +18,6 @@ def find_digit_cancelling_fractions():
                     denom *= q
 
     return num, denom
-
-
-def gcd(a, b):
-    """
-    Computes greatest common divisor using the basic Euclidean algorithm.
-    :param a: first integer
-    :param b: second integer
-    :return: GCD(a, b)
-    """
-    if b > a:
-        temp = a
-        a = b
-        b = temp
-
-    if b == 0:
-        return a
-    else:
-        return gcd(a % b, b)
 
 
 p, q = find_digit_cancelling_fractions()

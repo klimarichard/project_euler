@@ -1,27 +1,4 @@
-import math
-
-
-def divisors(n):
-    """
-    Returns divisors of given number.
-    :param n: an integer
-    :return: list of divisors
-    """
-    divs = [x for x in range(1, round(math.sqrt(n)) + 1) if n % x == 0]
-    divs += [n // x for x in divs]
-    divs = list(set(divs))
-    divs.sort()
-
-    return divs
-
-
-def sum_of_proper_divisors(divisors):
-    """
-    Returns sum of proper divisors.
-    :param divisors: list of all divisors
-    :return: sum of proper divisors
-    """
-    return sum(divisors[:-1])
+from algorithms import divisors, sum_of_proper_divisors
 
 
 def find_abundant(upper, lower=1):

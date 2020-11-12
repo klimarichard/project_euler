@@ -1,40 +1,4 @@
-def eratosthenes(number):
-    """
-    Returns a list of all prime numbers from 2 to given number
-    :param number: upper boundary for generating prime numbers
-    :return: list containing all prime numbers from 2 to given number
-    """
-    a = set(range(3, number + 1, 2))
-    a |= {2}
-    p = 3
-
-    while p <= number ** 0.5:
-        a -= set(range(p * p, number + 1, 2 * p))
-        p += 2
-
-        # it is pointless to examine numbers that aren't primes themselves
-        while p not in a:
-            p += 2
-
-    a = list(a)
-    a.sort()
-
-    return a
-
-
-def distinct(digits):
-    """
-    Finds, if all digits in given list are pairwise distinct.
-    :param digits: list of digits
-    :return: True, if all digits are pairwise distinct, False, otherwise
-    """
-    for i in range(len(digits)):
-        for j in range(i + 1, len(digits)):
-            if digits[i] == digits[j]:
-                return False
-
-    return True
-
+from algorithms import distinct, eratosthenes
 
 def find_pandigital_primes():
     """
