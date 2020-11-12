@@ -92,6 +92,34 @@ def gcd(a, b):
         return gcd(a % b, b)
 
 
+def is_hexagonal(n):
+    """
+    Finds, if given integer is a hexagonal number, so if there exist some k,
+    that n = k(2k - 1)
+    :param n: an integer
+    :return: True, if n is a hexagonal number, False otherwise
+    """
+    # this test for hexagonality was found online
+    if (1 + math.sqrt(8 * n + 1)) % 4 == 0:
+        return True
+    else:
+        return False
+
+
+def is_pentagonal(n):
+    """
+    Finds, if given integer is a pentagonal number, so if there exist some k,
+    that n = k(3k - 1) / 2.
+    :param n: an integer
+    :return: True, if n is a pentagonal number, False otherwise
+    """
+    # this test for pentagonality was found online
+    if (1 + math.sqrt(24 * n + 1)) % 6 == 0:
+        return True
+    else:
+        return False
+
+
 def next_permutation(current_perm):
     """
     Generates next permutation after given one.

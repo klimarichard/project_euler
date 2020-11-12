@@ -113,6 +113,22 @@ def gcd(a, b):
 ```
 
 
+### Hexagonality
+This function determines, whether given number `n` is hexagonal, so if there is some
+`k`, that `n = k(2k - 1)`. This test was found on Wikipedia.
+##### Implementation
+```python
+import math
+
+
+def is_hexagonal(n):
+    if (1 + math.sqrt(8 * n + 1)) % 4 == 0:
+        return True
+    else:
+        return False
+```
+
+
 ### Next permutation
 This algorithm finds next lexicographical permutation from the one given as input.
 If input permutation is the lexicographically last, it returns `None`.
@@ -162,6 +178,22 @@ Finds, if given number is palindromic.
 ```python
 def palindrome(n):
     if str(n) == "".join(reversed(str(n))):
+        return True
+    else:
+        return False
+```
+
+
+### Pentagonality
+This function determines, whether given number `n` is pentagonal, so if there is some
+`k`, that `n = k(3k - 1) / 2`. This test was found on Wikipedia.
+##### Implementation
+```python
+import math
+
+
+def is_pentagonal(n):
+    if (1 + math.sqrt(24 * n + 1)) % 6 == 0:
         return True
     else:
         return False
