@@ -255,3 +255,25 @@ We shall say that an `n`-digit number is pandigital if it makes use of all the d
 `1` to `n` exactly once. For example, `2143` is a `4`-digit pandigital and is also prime.\
 \
 What is the largest `n`-digit pandigital prime that exists?
+
+### 42 - Coded triangle numbers
+<p>
+The n<sup>th</sup> term of the sequence of triangle numbers is given by,
+<code>t<sub>n</sub> = (1/2) * n(n+1)</code>; so the first ten triangle numbers are:
+</p>
+
+<p align="center">
+<code>1</code>, <code>3</code>, <code>6</code>, <code>10</code>, <code>15</code>,
+<code>21</code>, <code>28</code>, <code>36</code>, <code>45</code>, <code>55</code>, ...
+</p>
+
+<p>
+By converting each letter in a word to a number corresponding to its alphabetical
+position and adding these values we form a word value. For example, the word value
+for SKY is <code>19 + 11 + 25 = 55 = t<sub>10</sub></code>. If the word value is
+a triangle number then we shall call the word a triangle word.
+</p>
+
+Using [p042_words.txt](../../res/p042_words.txt), a 16K text file
+containing nearly two-thousand common English words, how many are triangle
+words?
