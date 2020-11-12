@@ -250,6 +250,7 @@ def product(ls):
     return result
 ```
 
+---
 
 ## String algorithms
 
