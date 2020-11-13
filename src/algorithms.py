@@ -174,6 +174,28 @@ def palindrome(n):
         return False
 
 
+def prime_factors(n):
+    """
+    Finds all prime factors of given number.
+    :param n: an integer
+    :return: set of prime factors of n
+    """
+    i = 2
+    a = set()
+
+    while i < math.sqrt(n) or n == 1:
+        if n % i == 0:
+            n = n // i
+            a.add(i)
+            i -= 1
+        i += 1
+
+    if n > 1:
+        a.add(n)
+
+    return a
+
+
 def sum_of_digits(n):
     """
     Returns sum of digits of given number.

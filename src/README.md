@@ -200,6 +200,31 @@ def is_pentagonal(n):
 ```
 
 
+### Prime factors
+This algorithm finds all distinct prime factors of given number.
+##### Implementation
+```python
+import math
+
+
+def prime_factors(n):
+    i = 2
+    a = set()
+
+    while i < math.sqrt(n) or n == 1:
+        if n % i == 0:
+            n = n // i
+            a.add(i)
+            i -= 1
+        i += 1
+
+    if n > 1:
+        a.add(n)
+
+    return a
+```
+
+
 ### Sum of digits
 This algorithm finds digit-wise sum of given integer.
 ##### Implementation
