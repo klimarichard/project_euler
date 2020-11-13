@@ -354,3 +354,77 @@ It can be verified that <code>T<sub>285</sub> = P<sub>165</sub> = H<sub>143</sub
 </p>
 
 Find the next triangle number that is also pentagonal and hexagonal.
+
+### 46 - Goldbach's other conjecture
+It was proposed by Christian Goldbach that every odd composite number can be written
+as the sum of a prime and twice a square.
+
+<p align="center">
+<code>9 = 7 + 2×1<sup>2</sup></code><br>
+<code>15 = 7 + 2×2<sup>2</sup></code><br>
+<code>21 = 3 + 2×3<sup>2</sup></code><br>
+<code>25 = 7 + 2×3<sup>2</sup></code><br>
+<code>27 = 19 + 2×2<sup>2</sup></code><br>
+<code>33 = 31 + 2×1<sup>2</sup></code>
+</p>
+
+It turns out that the conjecture was false.\
+\
+What is the smallest odd composite that cannot be written as the sum of a prime and
+twice a square?
+
+### 47 - Distinct prime factors
+The first two consecutive numbers to have two distinct prime factors are:
+
+<p align="center">
+<code>14 = 2 × 7</code><br>
+<code>15 = 3 × 5</code>
+</p>
+
+The first three consecutive numbers to have three distinct prime factors are:
+
+<p align="center">
+<code>644 = 2<sup>2</sup> × 7 × 23</code><br>
+<code>645 = 3 × 5 × 43</code><br>
+<code>646 = 2 × 17 × 19</code>
+</p>
+
+Find the first four consecutive integers to have four distinct prime factors each.
+What is the first of these numbers?
+
+### 48 - Self powers
+<p>
+The series, <code>1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup> + ... +
+10<sup>10</sup> = 10405071317</code>.
+</p>
+
+<p>
+Find the last ten digits of the series, <code>1<sup>1</sup> + 2<sup>2</sup> +
+3<sup>3</sup> + ... + 1000<sup>1000</sup></code>.
+</p>
+
+### 49 - Prime permutations
+The arithmetic sequence, `1487`, `4817`, `8147`, in which each of the terms
+increases by `3330`, is unusual in two ways:\
+- (i) each of the three terms are prime, and,
+- (ii) each of the `4`-digit numbers are permutations of one another.\
+\
+There are no arithmetic sequences made up of three `1`-, `2`-, or `3`-digit primes,
+exhibiting this property, but there is one other `4`-digit increasing sequence.\
+\
+What `12`-digit number do you form by concatenating the three terms in this sequence?
+
+### 50 - Consecutive prime sum
+The prime `41`, can be written as the sum of six consecutive primes:
+
+<p align="center">
+<code>41 = 2 + 3 + 5 + 7 + 11 + 13</code>
+</p>
+
+This is the longest sum of consecutive primes that adds to a prime below one-hundred.\
+\
+The longest sum of consecutive primes below one-thousand that adds to a prime,
+contains 21 terms, and is equal to `953`.\
+\
+Which prime, below one-million, can be written as the sum of the most consecutive
+primes?
