@@ -153,10 +153,14 @@ By expanding this for the first four iterations, we get:
 </p>
 
 <p>
-The next three expansions are <code>99/70</code>, <code>239/169</code> and
-<code>577/408</code>, but the eighth expansion, <code>1393/985</code>, is the first
-example where the number of digits in the numerator exceeds the number of digits in
-the denominator.
+The next three expansions are
+<img src="../../res/img/p057_expansion05.png" alt="Fifth expansion" height="15"/>,
+<img src="../../res/img/p057_expansion06.png" alt="Sixth expansion" height="15"/> and
+<img src="../../res/img/p057_expansion07.png" alt="Seventh expansion" height="15"/>,
+but the eighth expansion,
+<img src="../../res/img/p057_expansion08.png" alt="Eight expansion" height="15"/>,
+is the first example where the number of digits in the numerator exceeds the number
+of digits in the denominator.
 </p>
 
 In the first one-thousand expansions, how many fractions contain a numerator with
