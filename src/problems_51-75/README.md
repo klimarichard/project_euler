@@ -140,15 +140,15 @@ It is possible to show that the square root of two can be expressed as an infini
 continued fraction.
 
 <p align="center">
-<img src="../../res/img/p057_sqrt2.png" alt="Continued fraction" height="60"/>
+<img src="../../res/img/p057_sqrt2.png" alt="Continued fraction" height="52"/>
 </p>
 
 By expanding this for the first four iterations, we get:
 
 <p>
-<img src="../../res/img/p057_expansion01.png" alt="First expansion" height="45"/><br>
-<img src="../../res/img/p057_expansion02.png" alt="Second expansion" height="50"/><br>
-<img src="../../res/img/p057_expansion03.png" alt="Third expansion" height="55" /><br>
+<img src="../../res/img/p057_expansion01.png" alt="First expansion" height="36"/><br>
+<img src="../../res/img/p057_expansion02.png" alt="Second expansion" height="44"/><br>
+<img src="../../res/img/p057_expansion03.png" alt="Third expansion" height="52" /><br>
 <img src="../../res/img/p057_expansion04.png" alt="Fourth expansion" height="60"/>
 </p>
 
