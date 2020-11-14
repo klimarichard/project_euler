@@ -139,17 +139,17 @@ where <code>a, b < 100</code>, what is the maximum digital sum?
 It is possible to show that the square root of two can be expressed as an infinite
 continued fraction.
 
-<p>
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Csqrt%7B2%7D%20%3D%201%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cdots%7D%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\sqrt{2} = 1 + \frac{1}{2 + \frac{1}{2 + \frac{1}{2 + \dots}}}" width="165" height="60" />
+<p align="center">
+<img src="../../res/img/p057_sqrt2.png" alt="Continued fraction" height="125"/>
 </p>
 
 By expanding this for the first four iterations, we get:
 
 <p>
-<img src="http://www.sciweavers.org/tex2img.php?eq=1%20%2B%20%5Cfrac%7B1%7D%7B2%7D%20%3D%20%5Cfrac%7B3%7D%7B2%7D%20%3D%201.5&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="1 + \frac{1}{2} = \frac{3}{2} = 1.5" width="133" height="43" /><br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=1%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%7D%7D%20%3D%20%5Cfrac%7B7%7D%7B5%7D%20%3D%201.4&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="1 + \frac{1}{2 + \frac{1}{2}} = \frac{7}{5} = 1.4" width="164" height="51" /><br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=1%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%7D%7D%7D%20%3D%20%5Cfrac%7B17%7D%7B12%7D%20%3D%201.41666%5Cdots&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="1 + \frac{1}{2 + \frac{1}{2 + \frac{1}{2}}} = \frac{17}{12} = 1.41666\dots" width="264" height="60" /><br>
-<img src="http://www.sciweavers.org/tex2img.php?eq=1%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%20%2B%20%5Cfrac%7B1%7D%7B2%7D%7D%7D%7D%20%3D%20%5Cfrac%7B41%7D%7B29%7D%20%3D%201.41379%5Cdots&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="1 + \frac{1}{2 + \frac{1}{2 + \frac{1}{2 + \frac{1}{2}}}} = \frac{41}{29} = 1.41379\dots" width="282" height="69" />
+<img src="../../res/img/p057_expansion01.png" alt="First expansion" height="125"/><br>
+<img src="../../res/img/p057_expansion02.png" alt="Second expansion" height="125"/><br>
+<img src="../../res/img/p057_expansion03.png" alt="Third expansion" height="125" /><br>
+<img src="../../res/img/p057_expansion04.png" alt="Fourth expansion" height="125"/>
 </p>
 
 <p>
