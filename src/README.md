@@ -301,15 +301,6 @@ def product(ls):
 
 ## String algorithms
 
-### Delete quotes
-Deletes quotes surrounding a string from all strings in a list.
-##### Implementation
-```python
-def delete_quotes(names):
-    return [name[1:-1] for name in names]
-```
-
-
 ### Alphabetical value
 Returns alphabetical value of a word, e. g. `SKY = 19 + 11 + 25 = 55`.
 ##### Implementation
@@ -322,6 +313,32 @@ def get_alphabetical_value(name):
         value += values.index(name[i])
 
     return value
+```
+
+
+### Delete quotes
+Deletes quotes surrounding a string from all strings in a list.
+##### Implementation
+```python
+def delete_quotes(names):
+    return [name[1:-1] for name in names]
+```
+
+
+### Find duplicates
+This algorithm finds all characters, that appear more than once in a string.
+##### Implementation
+```python
+def duplicates(s):
+    dups = set()
+    for i in range(1, len(s)):
+        if s[i] in s[0:i]:
+            dups |= {s[i]}
+
+    dups = list(dups)
+    dups.sort()
+
+    return dups
 ```
 
 ---

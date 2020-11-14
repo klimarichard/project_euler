@@ -270,26 +270,43 @@ def product(ls):
 # -----------------
 
 
-def delete_quotes(names):
+def delete_quotes(ls):
     """
-    Delete quotes from names in a list of names.
-    :param names: list of names
-    :return: list of raw names
+    Delete quotes from strings in a list of strings.
+    :param ls: list of strings
+    :return: list of raw strings
     """
-    return [name[1:-1] for name in names]
+    return [s[1:-1] for s in ls]
 
 
-def get_alphabetical_value(name):
+def duplicates(s):
     """
-    Returns alphabetical value of a given name.
-    :param name: a string
-    :return: alphabetical value of name
+    Finds all chars, that appear more than once in given string.
+    :param s: a string
+    :return: list of chars appearing more than once in s
+    """
+    dups = set()
+    for i in range(1, len(s)):
+        if s[i] in s[0:i]:
+            dups |= {s[i]}
+
+    dups = list(dups)
+    dups.sort()
+
+    return dups
+
+
+def get_alphabetical_value(word):
+    """
+    Returns alphabetical value of a given word.
+    :param word: a string
+    :return: alphabetical value of word
     """
     values = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     value = 0
 
-    for i in range(len(name)):
-        value += values.index(name[i])
+    for i in range(len(word)):
+        value += values.index(word[i])
 
     return value
 
