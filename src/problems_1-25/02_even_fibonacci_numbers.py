@@ -1,20 +1,14 @@
-def fibs(n):
-    """
-    Generates list of Fibonacci numbers up to given bound.
-    :param n: upper bound
-    :return: list of Fibonacci numbers lesser than given bound
-    """
-    if n == 1:
-        return [1]
-
-    fib = [1, 2]
-
-    while (fib[-1] + fib[-2]) < n:
-        fib.append(fib[-1] + fib[-2])
-
-    return fib
+from algorithms import gen_fibs
 
 
-even_fibs = [x for x in fibs(4000000) if x % 2 == 0]
+f = gen_fibs()
+next_fib = next(f)
+sum = 0
 
-print(sum(even_fibs))
+while next_fib < 4000000:
+    if next_fib % 2 == 0:
+        sum += next_fib
+
+    next_fib = next(f)
+
+print(sum)
