@@ -1,11 +1,14 @@
 # Algorithms
-The `algorithms.py` file contains reusable algorithms used throughout the solutions.
+The `algorithms.py` file contains reusable algorithms and generators used throughout
+the solutions.
 Within descriptions of some algorithms are time references for measuring the algorithms
 computing power on some small and some large data.
 
 - [Mathematical algorithms](#mathematical-algorithms)
 - [List algorithms](#list-algorithms)
 - [String algorithms](#string-algorithms)
+- [Generators](#generators)
+
 
 ## Mathematical algorithms
 
@@ -300,4 +303,19 @@ def get_alphabetical_value(name):
         value += values.index(name[i])
 
     return value
+```
+
+---
+
+## Generators
+
+### Fibonacci generator
+This generator generates all Fibonacci numbers.
+##### Implementation
+```python
+def gen_fibs():
+    f1, f2 = 1, 2
+    while True:
+        yield f1
+        f1, f2 = f2, f1 + f2
 ```

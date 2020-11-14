@@ -275,3 +275,17 @@ def get_alphabetical_value(name):
 
     return value
 
+# ----------
+# GENERATORS
+# ----------
+
+
+def gen_fibs():
+    """
+    Generator for Fibonacci numbers.
+    :return: next Fibonacci number
+    """
+    f1, f2 = 1, 2
+    while True:
+        yield f1
+        f1, f2 = f2, f1 + f2
