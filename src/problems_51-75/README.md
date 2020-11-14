@@ -18,3 +18,22 @@ contain exactly the same digits, but in a different order.\
 \
 Find the smallest positive integer, `x`, such that `2x`, `3x`, `4x`,
 `5x`, and `6x`, contain the same digits.
+
+### 53 - Combinatoric selections
+There are exactly ten ways of selecting three from five, `12345`:
+
+<p align="center">
+<code>123</code>, <code>124</code>, <code>125</code>, <code>134</code>,
+<code>135</code>, <code>145</code>, <code>234</code>, <code>235</code>,
+<code>245</code>, and <code>345</code>
+</p>
+
+In combinatorics, we use the notation, `(5 choose 3) = 10`.\
+\
+In general, `(n choose r) = n! / r!(n - r)!`, where `r <= n`,
+`n! = n × (n - 1) × ... × 3 × 2 × 1`, and `0! = 1`.\
+\
+It is not until `n = 23` that a value exceeds one-million: `(23 choose 10) = 1144066`.\
+\
+How many, not necessarily distinct, values of `(n choose r)` for `1 <= n <= 100`, are
+greater than one-million?
