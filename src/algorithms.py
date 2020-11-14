@@ -324,3 +324,14 @@ def gen_fibs():
     while True:
         yield f1
         f1, f2 = f2, f1 + f2
+
+
+def gen_naturals():
+    """
+    Generator for natural numbers.
+    :return: next natural number
+    """
+    current = 1
+    while True:
+        yield current
+        current += 1

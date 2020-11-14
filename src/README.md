@@ -357,3 +357,17 @@ def gen_fibs():
 ```
 ##### Reference times
 `gen_fibs()` for `1000000` iterations finished in `0.256` s
+
+
+### Naturals generator
+This generator generates all natural numbers.
+##### Implementation
+```python
+def gen_naturals():
+    current = 1
+    while True:
+        yield current
+        current += 1
+```
+##### Reference times
+`gen_naturals()` for `1000000` iterations finished in `0.119` s
