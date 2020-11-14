@@ -121,3 +121,16 @@ Surprisingly, there are palindromic numbers that are themselves Lychrel numbers;
 the first example is `4994`.\
 \
 How many Lychrel numbers are there below ten-thousand?
+
+### 56 - Powerful digit sum
+<p>
+A googol (<code>10<sup>100</sup></code>) is a massive number: one
+followed by one-hundred zeros; <code>100<sup>100</sup></code> is almost
+unimaginably large: one followed by two-hundred zeros. Despite their
+size, the sum of the digits in each number is only <code>1</code>.
+</p>
+
+<p>
+Considering natural numbers of the form, <code>a<sup>b</sup></code>,
+where <code>a, b < 100</code>, what is the maximum digital sum?
+</p>
