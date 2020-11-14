@@ -120,6 +120,24 @@ def is_pentagonal(n):
         return False
 
 
+def lcm(a, b, *args):
+    """
+    Returns lowest common multiplier of given numbers.
+    :param a: first integer
+    :param b: second integer
+    :param args: optional more integers
+    :return: LCM of all given integers
+    """
+    g = gcd(a, b)
+    mul = (a * b) // g
+
+    for i in range(len(args)):
+        g = gcd(mul, args[i])
+        mul = (args[i] * mul) // g
+
+    return mul
+
+
 def next_permutation(current_perm):
     """
     Generates next permutation after given one.

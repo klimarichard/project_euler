@@ -132,6 +132,25 @@ def is_hexagonal(n):
 ```
 
 
+### Lowest common multiplier
+The LCM algorithm computes lowest common multiplier of two or more integers.
+##### Implementation
+```python
+from algorithms import gcd
+
+
+def lcm(a, b, *args):
+    g = gcd(a, b)
+    mul = (a * b) // g
+
+    for i in range(len(args)):
+        g = gcd(mul, args[i])
+        mul = (args[i] * mul) // g
+
+    return mul
+```
+
+
 ### Next permutation
 This algorithm finds next lexicographical permutation from the one given as input.
 If input permutation is the lexicographically last, it returns `None`.
