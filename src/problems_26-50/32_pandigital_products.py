@@ -42,8 +42,7 @@ def find_pandigital_sums():
                 if i * j == n:
                     sums |= {n}
 
-    sums = list(sums)
-    sums.sort()
+    sums = sorted(sums)
 
     return sums
 

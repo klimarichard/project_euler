@@ -40,8 +40,7 @@ def find_circular_primes(upper):
         if flag:
             circulars |= current
 
-    circulars = list(circulars)
-    circulars.sort()
+    circulars = sorted(circulars)
 
     return circulars
 

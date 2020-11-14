@@ -56,8 +56,7 @@ def eratosthenes(number):
         while p not in a:
             p += 2
 
-    a = list(a)
-    a.sort()
+    a = sorted(a)
 
     return a
 
@@ -290,8 +289,7 @@ def duplicates(s):
         if s[i] in s[0:i]:
             dups |= {s[i]}
 
-    dups = list(dups)
-    dups.sort()
+    dups = sorted(dups)
 
     return dups
 
