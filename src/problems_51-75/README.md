@@ -154,11 +154,11 @@ By expanding this for the first four iterations, we get:
 
 <p>
 The next three expansions are
-<img src="../../res/img/p057_expansion05.png" alt="Fifth expansion" height="20"/>,
-<img src="../../res/img/p057_expansion06.png" alt="Sixth expansion" height="20"/> and
-<img src="../../res/img/p057_expansion07.png" alt="Seventh expansion" height="20"/>,
+<img src="../../res/img/p057_expansion05.png" alt="Fifth expansion" height="25"/>,
+<img src="../../res/img/p057_expansion06.png" alt="Sixth expansion" height="25"/> and
+<img src="../../res/img/p057_expansion07.png" alt="Seventh expansion" height="25"/>,
 but the eighth expansion,
-<img src="../../res/img/p057_expansion08.png" alt="Eight expansion" height="20"/>,
+<img src="../../res/img/p057_expansion08.png" alt="Eight expansion" height="25"/>,
 is the first example where the number of digits in the numerator exceeds the number
 of digits in the denominator.
 </p>
