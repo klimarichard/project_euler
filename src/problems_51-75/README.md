@@ -63,13 +63,25 @@ the next highest cards are compared, and so on.\
 \
 Consider the following five hands dealt to two players:
 
-<table style="text-align:center"><tr><td><b>Hand</b></td><td> </td><td><b>Player 1</b></td><td> </td><td><b>Player 2</b></td><td> </td><td><b>Winner</b></td>
-</tr><tr><td><b>1</b></td><td> </td><td>5H 5C 6S 7S KD<br /><div class="smaller">Pair of Fives</div></td><td> </td><td>2C 3S 8S 8D TD<br /><div class="smaller">Pair of Eights</div></td><td> </td><td>Player 2</td>
-</tr><tr><td><b>2</b></td><td> </td><td>5D 8C 9S JS AC<br /><div class="smaller">Highest card Ace</div></td><td> </td><td>2C 5C 7D 8S QH<br /><div class="smaller">Highest card Queen</div></td><td> </td><td>Player 1</td>
-</tr><tr><td><b>3</b></td><td> </td><td>2D 9C AS AH AC<br /><div class="smaller">Three Aces</div></td><td> </td><td>3D 6D 7D TD QD<br /><div class="smaller">Flush  with Diamonds</div></td><td> </td><td>Player 2</td>
-</tr><tr><td><b>4</b></td><td> </td><td>4D 6S 9H QH QC<br /><div class="smaller">Pair of Queens<br />Highest card Nine</div></td><td> </td><td>3D 6D 7H QD QS<br /><div class="smaller">Pair of Queens<br />Highest card Seven</div></td><td> </td><td>Player 1</td>
-</tr><tr><td><b>5</b></td><td> </td><td>2H 2D 4C 4D 4S<br /><div class="smaller">Full House<br />With Three Fours</div></td><td> </td><td>3C 3D 3S 9S 9D<br /><div class="smaller">Full House<br />with Three Threes</div></td><td> </td><td>Player 1</td>
-</tr></table>
+<table style="text-align:center">
+<tr><td><b>Hand</b></td><td><b>Player 1</b></td>
+<td><b>Player 2</b></td><td><b>Winner</b></td></tr>
+
+<tr><td><b>1</b></td><td>5H 5C 6S 7S KD<br>Pair of Fives</td>
+<td>2C 3S 8S 8D TD<br>Pair of Eights</td><td>Player 2</td></tr>
+
+<tr><td><b>2</b></td><td>5D 8C 9S JS AC<br>Highest card Ace</td>
+<td>2C 5C 7D 8S QH<br>Highest card Queen</td><td>Player 1</td></tr>
+
+<tr><td><b>3</b></td><td>2D 9C AS AH AC<br>Three Aces</td>
+<td>3D 6D 7D TD QD<br>Flush  with Diamonds</td><td>Player 2</td></tr>
+
+<tr><td><b>4</b></td><td>4D 6S 9H QH QC<br>Pair of Queens<br>Highest card Nine</td>
+<td>3D 6D 7H QD QS<br>Pair of Queens<br>Highest card Seven</td><td>Player 1</td></tr>
+
+<tr><td><b>5</b></td><td>2H 2D 4C 4D 4S<br>Full House<br>With Three Fours</td>
+<td>3C 3D 3S 9S 9D<br>Full House<br>with Three Threes</td><td>Player 1</td></tr>
+</table>
 
 The file, [poker.txt](../../res/p054_poker.txt), contains one-thousand random hands
 dealt to two players. Each line of the file contains ten cards (separated by a single
