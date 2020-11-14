@@ -319,3 +319,5 @@ def gen_fibs():
         yield f1
         f1, f2 = f2, f1 + f2
 ```
+##### Reference times
+`gen_fibs()` for `1000000` iterations finished in `0.256` s
