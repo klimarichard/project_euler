@@ -146,9 +146,9 @@ continued fraction.
 By expanding this for the first four iterations, we get:
 
 <p>
-<img src="../../res/img/p057_expansion01.png" alt="First expansion" height="60"/><br>
-<img src="../../res/img/p057_expansion02.png" alt="Second expansion" height="60"/><br>
-<img src="../../res/img/p057_expansion03.png" alt="Third expansion" height="60" /><br>
+<img src="../../res/img/p057_expansion01.png" alt="First expansion" height="45"/><br>
+<img src="../../res/img/p057_expansion02.png" alt="Second expansion" height="50"/><br>
+<img src="../../res/img/p057_expansion03.png" alt="Third expansion" height="55" /><br>
 <img src="../../res/img/p057_expansion04.png" alt="Fourth expansion" height="60"/>
 </p>
 
