@@ -240,7 +240,7 @@ def is_prime(n):
     return True
 ```
 ##### Reference times
-`is_prime((2 ** 31) - 1)` finished in `6.712` ms
+`is_prime((2 ** 31) - 1)` finished in `6.712` ms\
 `is_prime(39916801 ** 2)` finished in `5.803` s
 
 
