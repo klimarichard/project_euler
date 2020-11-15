@@ -64,22 +64,22 @@ the next highest cards are compared, and so on.\
 Consider the following five hands dealt to two players:
 
 <table align="center">
-<tr><td><b>Hand</b></td><td><b>Player 1</b></td>
-<td><b>Player 2</b></td><td><b>Winner</b></td></tr>
+<thead align="center"><td><b>Hand</b></td><td><b>Player 1</b></td>
+<td><b>Player 2</b></td><td><b>Winner</b></td></thead>
 
-<tr><td><b>1</b></td><td>5H 5C 6S 7S KD<br><i>Pair of Fives</i></td>
+<tr align="center"><td><b>1</b></td><td>5H 5C 6S 7S KD<br><i>Pair of Fives</i></td>
 <td>2C 3S 8S 8D TD<br><i>Pair of Eights</i></td><td>Player 2</td></tr>
 
-<tr><td><b>2</b></td><td>5D 8C 9S JS AC<br><i>Highest card Ace</i></td>
+<tr align="center"><td><b>2</b></td><td>5D 8C 9S JS AC<br><i>Highest card Ace</i></td>
 <td>2C 5C 7D 8S QH<br><i>Highest card Queen</i></td><td>Player 1</td></tr>
 
-<tr><td><b>3</b></td><td>2D 9C AS AH AC<br><i>Three Aces</i></td>
+<tr align="center"><td><b>3</b></td><td>2D 9C AS AH AC<br><i>Three Aces</i></td>
 <td>3D 6D 7D TD QD<br><i>Flush  with Diamonds</i></td><td>Player 2</td></tr>
 
-<tr><td><b>4</b></td><td>4D 6S 9H QH QC<br><i>Pair of Queens<br>Highest card Nine</i></td>
+<tr align="center"><td><b>4</b></td><td>4D 6S 9H QH QC<br><i>Pair of Queens<br>Highest card Nine</i></td>
 <td>3D 6D 7H QD QS<br><i>Pair of Queens<br>Highest card Seven</i></td><td>Player 1</td></tr>
 
-<tr><td><b>5</b></td><td>2H 2D 4C 4D 4S<br><i>Full House<br>with Three Fours</i></td>
+<tr align="center"><td><b>5</b></td><td>2H 2D 4C 4D 4S<br><i>Full House<br>with Three Fours</i></td>
 <td>3C 3D 3S 9S 9D<br><i>Full House<br>with Three Threes</i></td><td>Player 1</td></tr>
 </table>
 
