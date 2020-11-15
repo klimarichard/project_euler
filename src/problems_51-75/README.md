@@ -154,7 +154,7 @@ By expanding this for the first four iterations, we get:
 
 <p>
 The next three expansions are
-<img src="../../res/img/p057_expansion05.png" alt="Fifth expansion" height="25"/>,
+<img src="../../res/img/p057_expansion05.png" style="horiz-align: center" alt="Fifth expansion" height="25"/>,
 <img src="../../res/img/p057_expansion06.png" alt="Sixth expansion" height="25"/> and
 <img src="../../res/img/p057_expansion07.png" alt="Seventh expansion" height="25"/>,
 but the eighth expansion,
@@ -165,3 +165,7 @@ of digits in the denominator.
 
 In the first one-thousand expansions, how many fractions contain a numerator with
 more digits than the denominator?
+
+#img {
+
+}
