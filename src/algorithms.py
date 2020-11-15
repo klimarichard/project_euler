@@ -119,6 +119,26 @@ def is_pentagonal(n):
         return False
 
 
+def is_prime(n):
+    """
+    Finds, if given integer is a prime number.
+    :param n: an integer
+    :return: True, if n is prime, False, otherwise
+    """
+    if n == 1:
+        return False
+    if n == 2:
+        return True
+
+    i = 3
+    while i < int(n ** 0.5) + 1:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
 def lcm(a, b, *args):
     """
     Returns lowest common multiplier of given numbers.

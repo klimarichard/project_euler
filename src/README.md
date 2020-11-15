@@ -221,6 +221,29 @@ def is_pentagonal(n):
 ```
 
 
+### Primality test
+This function tests, if the given number is a prime number.
+##### Implementation
+```python
+def is_prime(n):
+    if n == 1:
+        return False
+    if n == 2:
+        return True
+
+    i = 3
+    while i < int(n ** 0.5) + 1:
+        if n % i == 0:
+            return False
+        i += 2
+
+    return True
+```
+##### Reference times
+`is_prime((2 ** 31) - 1)` finished in `6.712` ms
+`is_prime(39916801 ** 2)` finished in `5.803` s
+
+
 ### Prime factors
 This algorithm finds all distinct prime factors of given number.
 ##### Implementation
