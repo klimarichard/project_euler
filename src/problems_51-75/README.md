@@ -281,3 +281,13 @@ cube.
 </p>
 
 Find the smallest cube for which exactly five permutations of its digits are cube.
+
+### 63 - Powerful digit counts
+<p>
+The <code>5</code>-digit number, <code>16807 = 7<sup>5</sup></code>,
+is also a fifth power. Similarly, the 9-digit number,
+<code>134217728 = 8<sup>9</sup></code>, is a ninth power.
+</p>
+
+How many `n`-digit positive integers exist which are also
+an `n`<sup>th</sup> power?
