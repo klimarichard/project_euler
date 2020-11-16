@@ -291,3 +291,74 @@ is also a fifth power. Similarly, the 9-digit number,
 
 How many `n`-digit positive integers exist which are also
 an `n`<sup>th</sup> power?
+
+### 64 - Odd period square roots
+All square roots are periodic when written as continued fractions and can be written
+in the form:
+
+<p>
+<img src="../../res/img/p064_sqrtN.png" alt="Square root of N" height="52"/>
+</p>
+
+<p>
+For example, let us consider
+<img src="../../res/img/p064_sqrt23.png" alt="Square root of 23" height="18"/>:
+</p>
+
+<p>
+<img src="../../res/img/p064_sqrt23expansion01.png" alt="Square root of 23 - 1st expansion" height ="40"/>
+</p>
+
+If we continue, we get the following expansion:
+
+<p>
+<img src="../../res/img/p064_sqrt23expansion02.png" alt="Square root of 23 - complete expansion" height="52"/>
+</p>
+
+The process can be summarised as follows:
+
+<p>
+<img src="../../res/img/p064_a0.png" alt="a0" height="38"/><br>
+<img src="../../res/img/p064_a1.png" alt="a1" height="38"/><br>
+<img src="../../res/img/p064_a2.png" alt="a2" height="38"/><br>
+<img src="../../res/img/p064_a3.png" alt="a3" height="38"/><br>
+<img src="../../res/img/p064_a4.png" alt="a4" height="38"/><br>
+<img src="../../res/img/p064_a5.png" alt="a5" height="38"/><br>
+<img src="../../res/img/p064_a6.png" alt="a6" height="38"/><br>
+<img src="../../res/img/p064_a7.png" alt="a7" height="38"/>
+</p>
+
+<p>
+It can be seen, that the sequence is repeating. For conciseness, we use the notation
+<img src="../../res/img/p064_notation.png" alt="Notation" height="18"/>, to indicate
+that the block <code>(1, 3, 1, 8)</code> repeats indefinitely.
+</p>
+
+The first ten continued fraction representations of (irrational) square roots are:
+
+<p>
+<img src="../../res/img/p064_sqrt2.png" alt="Square root of 2" height="18"/>,
+<code>period = 1</code><br>
+<img src="../../res/img/p064_sqrt3.png" alt="Square root of 3" height="18"/>,
+<code>period = 2</code><br>
+<img src="../../res/img/p064_sqrt5.png" alt="Square root of 5" height="18"/>,
+<code>period = 1</code><br>
+<img src="../../res/img/p064_sqrt6.png" alt="Square root of 6" height="18"/>,
+<code>period = 2</code><br>
+<img src="../../res/img/p064_sqrt7.png" alt="Square root of 7" height="18"/>,
+<code>period = 4</code><br>
+<img src="../../res/img/p064_sqrt8.png" alt="Square root of 8" height="18"/>,
+<code>period = 2</code><br>
+<img src="../../res/img/p064_sqrt10.png" alt="Square root of 10" height="18"/>,
+<code>period = 1</code><br>
+<img src="../../res/img/p064_sqrt11.png" alt="Square root of 11" height="18"/>,
+<code>period = 2</code><br>
+<img src="../../res/img/p064_sqrt12.png" alt="Square root of 12" height="18"/>,
+<code>period = 2</code><br>
+<img src="../../res/img/p064_sqrt13.png" alt="Square root of 13" height="18"/>,
+<code>period = 5</code><br>
+</p>
+
+Exactly four continued fractions, for `N <= 13`, have an odd period.\
+\
+How many continued fractions for `N <= 10 000` have an odd period?
