@@ -1,7 +1,7 @@
-from algorithms import gen_cubes
+from algorithms import gen_powers
 
 
-cubes = gen_cubes()
+cubes = gen_powers(3)
 perms = {}
 found = False
 

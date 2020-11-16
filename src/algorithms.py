@@ -333,17 +333,6 @@ def get_alphabetical_value(word):
 # ----------
 
 
-def gen_cubes():
-    """
-    Generate all cube numbers.
-    :return: next cube number
-    """
-    current = 1
-    while True:
-        yield current ** 3
-        current += 1
-
-
 def gen_fibs():
     """
     Generator for Fibonacci numbers.
@@ -363,4 +352,16 @@ def gen_naturals():
     current = 1
     while True:
         yield current
+        current += 1
+
+
+def gen_powers(n):
+    """
+    Generator for n-th powers of naturals numbers.
+    :param n: power
+    :return: next natural number's n-th power
+    """
+    current = 1
+    while True:
+        yield current ** n
         current += 1

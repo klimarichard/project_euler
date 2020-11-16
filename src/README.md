@@ -366,19 +366,6 @@ def duplicates(s):
 
 ## Generators
 
-### Cubes generator
-This generator generates all cube numbers.
-##### Implementation
-```python
-def gen_cubes():
-    current = 1
-    while True:
-        yield current ** 3
-        current += 1
-```
-##### Reference times
-`gen_cubes()` for `1000000` iterations finished in `0.315` s
-
 ### Fibonacci generator
 This generator generates all Fibonacci numbers.
 ##### Implementation
@@ -405,3 +392,19 @@ def gen_naturals():
 ```
 ##### Reference times
 `gen_naturals()` for `1000000` iterations finished in `0.119` s
+
+
+### Powers generator
+This generator generates all numbers to the power of n.
+##### Implementation
+```python
+def gen_powers(n):
+    current = 1
+    while True:
+        yield current ** n
+        current += 1
+```
+##### Reference times
+`gen_powers(2)` for `1000000` iterations finished in `0.275` s
+`gen_powers(10)` for `1000000` iterations finished in `0.360` s
+`gen_powers(0.5)` for `1000000` iterations finished in `0.176` s
