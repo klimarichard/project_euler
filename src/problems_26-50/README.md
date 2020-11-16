@@ -405,7 +405,7 @@ Find the last ten digits of the series, <code>1<sup>1</sup> + 2<sup>2</sup> +
 
 ### 49 - Prime permutations
 The arithmetic sequence, `1487`, `4817`, `8147`, in which each of the terms
-increases by `3330`, is unusual in two ways:\
+increases by `3330`, is unusual in two ways:
 - (i) each of the three terms are prime, and,
 - (ii) each of the `4`-digit numbers are permutations of one another.\
 \
