@@ -296,23 +296,23 @@ an `n`<sup>th</sup> power?
 All square roots are periodic when written as continued fractions and can be written
 in the form:
 
-<p>
+<p align="center">
 <img src="../../res/img/p064_sqrtN.png" alt="Square root of N" height="52"/>
 </p>
 
 <p>
 For example, let us consider
-<img src="../../res/img/p064_sqrt23.png" alt="Square root of 23" height="18"/>:
+<img src="../../res/img/p064_sqrt23.png" alt="Square root of 23" height="16"/>:
 </p>
 
 <p>
-<img src="../../res/img/p064_sqrt23expansion01.png" alt="Square root of 23 - 1st expansion" height ="40"/>
+<img src="../../res/img/p064_sqrt23expansion01.png" alt="Square root of 23 - 1st expansion" height ="44"/>
 </p>
 
 If we continue, we get the following expansion:
 
 <p>
-<img src="../../res/img/p064_sqrt23expansion02.png" alt="Square root of 23 - complete expansion" height="52"/>
+<img src="../../res/img/p064_sqrt23expansion02.png" alt="Square root of 23 - complete expansion" height="58"/>
 </p>
 
 The process can be summarised as follows:
