@@ -254,7 +254,7 @@ Octagonal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>P<sub>8,n</sub> = n(3nâ
 <code>21</code>, <code>40</code>, <code>65</code>, ...
 </p>
 
-The ordered set of three 4-digit numbers: `8128`, `2882`, `8281`, has three
+The ordered set of three `4`-digit numbers: `8128`, `2882`, `8281`, has three
 interesting properties.
 
 <ol>
@@ -264,10 +264,10 @@ digits of the next number (including the last number with the first).</li>
 (<code>P<sub>4,91</sub> = 8281</code>), and pentagonal
 (<code>P<sub>5,44</sub> = 2882</code>), is represented by a different number in
 the set.</li>
-<li>This is the only set of 4-digit numbers with this property.</li>
+<li>This is the only set of `4`-digit numbers with this property.</li>
 </ol>
 
-Find the sum of the only ordered set of six cyclic 4-digit numbers for which each
+Find the sum of the only ordered set of six cyclic `4`-digit numbers for which each
 polygonal type: triangle, square, pentagonal, hexagonal, heptagonal, and octagonal,
 is represented by a different number in the set.
 
