@@ -333,6 +333,17 @@ def get_alphabetical_value(word):
 # ----------
 
 
+def gen_cubes():
+    """
+    Generate all cube numbers.
+    :return: next cube number
+    """
+    current = 1
+    while True:
+        yield current ** 3
+        current += 1
+
+
 def gen_fibs():
     """
     Generator for Fibonacci numbers.
