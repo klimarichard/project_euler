@@ -270,3 +270,14 @@ the set.</li>
 Find the sum of the only ordered set of six cyclic 4-digit numbers for which each
 polygonal type: triangle, square, pentagonal, hexagonal, heptagonal, and octagonal,
 is represented by a different number in the set.
+
+### 62 - Cubic permutations
+<p>
+The cube, <code>41063625 (345<sup>3</sup>)</code>, can be permuted to produce two
+other cubes: <code>56623104 (384<sup>3</sup>)</code> and
+<code>66430125 (405<sup>3</sup>)</code>. In fact, <code>41063625</code> is
+the smallest cube which has exactly three permutations of its digits which are also
+cube.
+</p>
+
+Find the smallest cube for which exactly five permutations of its digits are cube.
