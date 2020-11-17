@@ -40,7 +40,7 @@ This algorithm computes the continuous fraction for square root of given number,
 cannot be a square.
 ##### Implementation
 ```python
-def compute_continuous_fraction(n):
+def continuous_fraction(n):
     period = []
 
     a0 = int(n ** 0.5)

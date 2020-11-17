@@ -25,7 +25,7 @@ def collatz(n):
     return seq
 
 
-def compute_continuous_fraction(n):
+def continuous_fraction(n):
     """
     Computes a continuous fraction for square root of given number.
     :param n: a positive integer
