@@ -467,3 +467,50 @@ altogether! If you could check one trillion (<code>10<sup>12</sup></code>) route
 every second it would take over twenty billion years to check them all. There is
 an efficient algorithm to solve it. ;o) 
 </p>
+
+### 68 - Magic 5-gon ring
+Consider the following "magic" `3`-gon ring, filled with the numbers `1` to `6`, and
+each line adding to nine.
+
+<p align="center">
+<img src="../../res/img/p068_3ring.png" alt="Magic 3-gon ring"/>
+</p>
+
+Working **clockwise**, and starting from the group of three with the numerically
+lowest external node (`4`,`3`,`2` in this example), each solution can be described
+uniquely. For example, the above solution can be described by the set: `4,3,2`;
+`6,2,1`; `5,1,3`.\
+\
+It is possible to complete the ring with four different totals: `9`, `10`, `11`,
+and `12`. There are eight solutions in total.
+
+<table align="center">
+<thead align="center"><td><b>Total</b></td><td><b>Solution Set</b></td></thead>
+<tr align="center"><td><code>9</code></td>
+<td><code>4,2,3</code>; <code>5,3,1</code>; <code>6,1,2</code></td></tr>
+<tr align="center"><td><code>9</code></td>
+<td><code>4,3,2</code>; <code>6,2,1</code>; <code>5,1,3</code></td></tr>
+<tr align="center"><td><code>10</code></td>
+<td><code>2,3,5</code>; <code>4,5,1</code>; <code>6,1,3</code></td></tr>
+<tr align="center"><td><code>10</code></td>
+<td><code>2,5,3</code>; <code>6,3,1</code>; <code>4,1,5</code></td></tr>
+<tr align="center"><td><code>11</code></td>
+<td><code>1,4,6</code>; <code>3,6,2</code>; <code>5,2,4</code></td></tr>
+<tr align="center"><td><code>11</code></td>
+<td><code>1,6,4</code>; <code>5,4,2</code>; <code>3,2,6</code></td></tr>
+<tr align="center"><td><code>12</code></td>
+<td><code>1,5,6</code>; <code>2,6,4</code>; <code>3,4,5</code></td></tr>
+<tr align="center"><td><code>12</code></td>
+<td><code>1,6,5</code>; <code>3,5,4</code>; <code>2,4,6</code></td></tr>
+</table>
+
+By concatenating each group it is possible to form `9`-digit strings; the maximum
+string for a `3`-gon ring is `432621513`.\
+\
+Using the numbers `1` to `10`, and depending on arrangements, it is possible to form
+`16`- and `17`-digit strings. What is the maximum **`16`-digit** string for
+a "magic" `5`-gon ring?
+
+<p align="center">
+<img src="../../res/img/p068_5ring.png" alt="Empty 5-gon ring"/>
+</p>
