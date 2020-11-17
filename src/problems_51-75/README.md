@@ -443,3 +443,27 @@ obtained when `D = 5`.\
 \
 Find the value of `D <= 1000` in minimal solutions of `x` for which the largest
 value of `x` is obtained.
+
+### 67 - Maximum path sum II
+By starting at the top of the triangle below and moving to adjacent numbers on
+the row below, the maximum total from top to bottom is `23`.
+
+<p align="center">
+<code><b>3</b></code><br>
+<code><b>7</b> 4</code><br>
+<code>2 <b>4</b> 6 </code><br>
+<code>8 5 <b>9</b> 3</code>
+</p>
+
+That is, `3 + 7 + 4 + 9 = 23`.\
+\
+Find the maximum total from top to bottom in [triangle.txt](../../res/p067_triangle.txt),
+a 15K text file containing a triangle with one-hundred rows.
+
+<p>
+<b>NOTE:</b> This is a much more difficult version of Problem 18. It is not possible
+to try every route to solve this problem, as there are <code>2<sup>99</sup></code>
+altogether! If you could check one trillion (<code>10<sup>12</sup></code>) routes
+every second it would take over twenty billion years to check them all. There is
+an efficient algorithm to solve it. ;o) 
+</p>
