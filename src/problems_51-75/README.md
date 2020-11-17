@@ -412,3 +412,34 @@ The sum of digits in the numerator of the 10<sup>th</sup> convergent is
 \
 Find the sum of digits in the numerator of the 100<sup>th</sup> convergent of
 the continued fraction for `e`.
+
+### 66 - Diophantine equation
+Consider quadratic Diophantine equations of the form:
+
+<p align="center">
+<code>x<sup>2</sup> - Dy<sup>2</sup> = 1</code>
+</p>
+
+<p>
+For example, when <code>D = 13</code>, the minimal solution in <code>x</code> is
+<code>649<sup>2</sup> - 13 × 180<sup>2</sup> = 1</code>.
+</p>
+
+It can be assumed that there are no solutions in positive integers when `D` is square.\
+\
+By finding minimal solutions in `x` for `D = {2, 3, 5, 6, 7}`, we obtain
+the following:
+
+<p>
+<code>3<sup>2</sup> - 2 × 2<sup>2</sup> = 1</code><br>
+<code>2<sup>2</sup> - 3 × 1<sup>2</sup> = 1</code><br>
+<code><b>9</b><sup>2</sup> - 5 × 4<sup>2</sup> = 1</code><br>
+<code>5<sup>2</sup> - 6 × 2<sup>2</sup> = 1</code><br>
+<code>8<sup>2</sup> - 7 × 3<sup>2</sup> = 1</code>
+</p>
+
+Hence, by considering minimial solutions in `x` for `D <= 7`, the largest `x` is
+obtained when `D = 5`.\
+\
+Find the value of `D <= 1000` in minimal solutions of `x` for which the largest
+value of `x` is obtained.
