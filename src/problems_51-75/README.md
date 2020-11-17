@@ -514,3 +514,59 @@ a "magic" `5`-gon ring?
 <p align="center">
 <img src="../../res/img/p068_5ring.png" alt="Empty 5-gon ring"/>
 </p>
+
+### 69 - Totient maximum
+Euler's Totient function, `φ(n)` (sometimes called the phi function),
+is used to determine the number of numbers less than `n` which are
+relatively prime to `n`. For example, as `1`, `2`, `4`, `5`, `7`,
+and `8`, are all less than nine and relatively prime to nine,
+`φ(9)=6`.
+
+<table align="center">
+<thead align="center">
+<td><b><code>n</code></b></td>
+<td><b>Relatively Prime</b></td>
+<td><b><code>φ(n)</code></b></td>
+<td><b><code>n/φ(n)</code></b></td>
+</thead>
+<tr align="center"><td><code>2</code></td><td><code>1</code></td>
+<td><code>1</code></td><td><code>2</code></td></tr>
+<tr align="center"><td><code>3</code></td>
+<td><code>1</code>,<code>2</code></td>
+<td><code>2</code></td>
+<td><code>1.5</code></td></tr>
+<tr align="center"><td><code>4</code></td>
+<td><code>1</code>,<code>3</code></td>
+<td><code>2</code></td>
+<td><code>2</code></td></tr>
+<tr align="center"><td><code>5</code></td>
+<td><code>1</code>,<code>2</code>,<code>3</code>,<code>4</code></td>
+<td><code>4</code></td>
+<td><code>1.25</code></td></tr>
+<tr align="center"><td><code>6</code></td>
+<td><code>1</code>,<code>5</code></td>
+<td><code>2</code></td>
+<td><code>3</code></td></tr>
+<tr align="center"><td><code>7</code></td>
+<td><code>1</code>,<code>2</code>,<code>3</code>,<code>4</code>,
+<code>5</code>,<code>6</code></td>
+<td><code>6</code></td>
+<td><code>1.1666...</code></td></tr>
+<tr align="center"><td><code>8</code></td>
+<td><code>1</code>,<code>3</code>,<code>5</code>,<code>7</code></td>
+<td><code>4</code></td>
+<td><code>2</code></td></tr>
+<tr align="center"><td><code>9</code></td>
+<td><code>1</code>,<code>2</code>,<code>4</code>,<code>5</code>,
+<code>7</code>,<code>8</code></td>
+<td><code>6</code></td>
+<td><code>1.5</code></td></tr>
+<tr align="center"><td><code>10</code></td>
+<td><code>1</code>,<code>3</code>,<code>7</code>,<code>9</code></td>
+<td><code>4</code></td>
+<td><code>2.5</code></td></tr>
+</table>
+
+It can be seen that `n = 6` produces a maximum `n/φ(n)` for `n ≤ 10`.\
+\
+Find the value of `n ≤ 1 000 000` for which `n/φ(n)` is a maximum.
