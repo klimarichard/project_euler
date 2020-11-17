@@ -364,7 +364,7 @@ Exactly four continued fractions, for `N <= 13`, have an odd period.\
 How many continued fractions for `N <= 10 000` have an odd period?
 
 ### 65 - Convergents of `e`
-The square root of 2 can be written as an infinite continued fraction.
+The square root of `2` can be written as an infinite continued fraction.
 
 <p align="center">
 <img src="../../res/img/p065_sqrt2.png" alt="Square root of 2" height="52"/>
@@ -373,7 +373,7 @@ The square root of 2 can be written as an infinite continued fraction.
 <p>
 The infinite continued fraction can be written,
 <img src="../../res/img/p065_sqrt2continuous.png" alt="Continued fraction of square root of 2" height="18"/>,
-<code>(2)</code> indicates that 2 repeats <i>ad infinitum</i>. In a similar way,
+<code>(2)</code> indicates that <code>2</code> repeats <i>ad infinitum</i>. In a similar way,
 <img src="../../res/img/p065_sqrt23continuous.png" alt="Continued fraction of square root of 23" height="18"/>.
 </p>
 
@@ -394,7 +394,7 @@ roots provide the best rational approximations. Let us consider the convergents 
 Hence the sequence of the first ten convergents for
 <img src="../../res/img/p065_sqrt2alone.png" alt="Square root of 2 sign" height="18"/>
 are:<br>
-<img src="../../res/img/p065_sqrt2approximations.png" alt="Approximations of square root of 2" height="28"/>
+<img src="../../res/img/p065_sqrt2approximations.png" alt="Approximations of square root of 2" height="34"/>
 </p>
 
 <p>
@@ -404,7 +404,7 @@ What is most surprising is that the important mathematical constant,<br>
 
 <p>
 The first ten terms in the sequence of convergents for <code>e</code> are:<br>
-<img src="../../res/img/p065_eapproximations.png" alt="Approximations of e" height="25"/>
+<img src="../../res/img/p065_eapproximations.png" alt="Approximations of e" height="38"/>
 </p>
 
 The sum of digits in the numerator of the 10<sup>th</sup> convergent is
