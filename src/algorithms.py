@@ -261,6 +261,32 @@ def prime_factors(n):
     return a
 
 
+def prime_factors_list(n):
+    """
+    Finds all prime factors and their magnitudes of given number.
+    :param n: an integer
+    :return: list of tuples containing prime factors and their magnitudes
+    """
+    i = 2
+    a = []
+
+    while i < math.sqrt(n):
+        while n % i == 0:
+            n = n // i
+            a.append(i)
+        i += 1
+
+    if n > 1:
+        a.append(n)
+
+    a = sorted(a)
+    result = []
+    for k in set(a):
+        result.append((k, count_item(a, k)))
+
+    return result
+
+
 def sum_of_digits(n):
     """
     Returns sum of digits of given number.
@@ -284,6 +310,28 @@ def sum_of_proper_divisors(divisors):
 # ---------------
 # LIST ALGORITHMS
 # ---------------
+
+def count_item(ls, item):
+    """
+    Counts how many times the item is present in the list.
+    :param ls: list of items
+    :param item: item to look for
+    :return: number of elements that are equal to item
+    """
+    if item not in ls:
+        return 0
+
+    ls = sorted(ls)
+    count = 1
+    item_index = ls.index(item)
+    i = 1
+
+    while item_index + i < len(ls) and ls[item_index + i] == item:
+        count += 1
+        i += 1
+
+    return count
+
 
 def distinct(numbers):
     """
