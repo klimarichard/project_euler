@@ -1,4 +1,4 @@
-from algorithms import compute_continuous_fraction, gen_powers
+from algorithms import continuous_fraction, gen_powers
 
 
 squares = []
@@ -13,7 +13,7 @@ odd_period = 0
 
 for i in range(1, 10001):
     if i not in squares:
-        fract = compute_continuous_fraction(i)
+        fract = continuous_fraction(i)
 
         if len(fract[1]) % 2 == 1:
             odd_period += 1
