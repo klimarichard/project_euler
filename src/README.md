@@ -104,9 +104,7 @@ The GCD algorithm uses the basic recursive definition of GCD.
 ```python
 def gcd(a, b):
     if b > a:
-        temp = a
-        a = b
-        b = temp
+        a, b = b, a
 
     if b == 0:
         return a

@@ -81,9 +81,7 @@ def gcd(a, b):
     :return: GCD(a, b)
     """
     if b > a:
-        temp = a
-        a = b
-        b = temp
+        a, b = b, a
 
     if b == 0:
         return a
