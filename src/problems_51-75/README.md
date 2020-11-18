@@ -570,3 +570,20 @@ and `8`, are all less than nine and relatively prime to nine,
 It can be seen that `n = 6` produces a maximum `n/φ(n)` for `n ≤ 10`.\
 \
 Find the value of `n ≤ 1 000 000` for which `n/φ(n)` is a maximum.
+
+### 70 - Totient permutation
+Euler's Totient function, `φ(n)` (sometimes called the phi function), is used
+to determine the number of positive numbers less than or equal to `n` which are
+relatively prime to `n`. For example, as `1`, `2`, `4`, `5`, `7`, and `8`, are all
+less than nine and relatively prime to nine, `φ(9) = 6`.\
+The number `1` is considered to be relatively prime to every positive number,
+so `φ(1) = 1`.\
+\
+Interestingly, `φ(87109) = 79180`, and it can be seen that `87109` is a permutation
+of `79180`.\
+
+<p>
+Find the value of <code>n</code>, <code>1 < n < 10<sup>7</sup></code>, for which
+<code>φ(n)</code> is a permutation of <code>n</code> and the ratio <code>n/φ(n)</code>
+produces a minimum.
+</p>
