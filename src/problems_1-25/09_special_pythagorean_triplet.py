@@ -7,12 +7,9 @@ def pythagorean_triplets_sum(n):
     # we can use several general properties of triangles:
     #  - triangle inequality (mainly c < a + b)
     #
-    # as well as some properties of primitive Pythagorean triplets:
-    #  - exactly one of a, b is odd (we say a is odd, b is even)
-    #  - exactly one of a, b is divisible by 3 (for us, a is divisible by 3)
-    #  - exactly one of a, b is divisible by 4 (for us, b is divisible by 4)
-    #  - c is of the form 4n + 1
-    return [(a, b, n - (a + b)) for a in range(3, n + 1, 3) for b in range(4, n + 1 - (a + 1), 4)
+    # and some properties for Pythagorean triangles:
+    #  - a < b < c, so a < n/3 and a < b < n/2
+    return [(a, b, n - (a + b)) for a in range(1, int(n / 3) + 1) for b in range(a, int(n / 2) + 1)
             if (a % 2 != b % 2) and a * a + b * b == ((n - (a + b)) * (n - (a + b)))]
 
 
