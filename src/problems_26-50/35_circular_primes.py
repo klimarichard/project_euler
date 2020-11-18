@@ -11,7 +11,6 @@ def find_circular_primes(upper):
     primes = eratosthenes(upper)
     non_prime_digits = {0, 2, 4, 6, 8}
 
-    i = 0
     for p in primes:
         current = {p}
         digits = set([int(x) for x in str(p)])
@@ -19,10 +18,6 @@ def find_circular_primes(upper):
         # if number contains 0, 2, 4, 6 or 8, all its permutations cannot be primes
         if len(digits.intersection(non_prime_digits)) > 0:
             continue
-
-        if p > 20000 * i:
-            print(p)
-            i += 1
 
         length = len(str(p))
         flag = True
