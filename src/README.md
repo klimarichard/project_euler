@@ -69,11 +69,8 @@ def continuous_fraction(n):
 The `divisors` algorithm returns all divisors of given integer.
 ##### Implementation
 ```python
-import math
-
-
 def divisors(n):
-    divs = [x for x in range(1, round(math.sqrt(n)) + 1) if n % x == 0]
+    divs = [x for x in range(1, int(n ** 0.5) + 1) if n % x == 0]
     divs += [n // x for x in divs]
     divs.sort()
 
@@ -179,11 +176,8 @@ This function determines, whether given number `n` is hexagonal, so if there is 
 `k`, that `n = k(2k - 1)`. This test was found on Wikipedia.
 ##### Implementation
 ```python
-import math
-
-
 def is_hexagonal(n):
-    if (1 + math.sqrt(8 * n + 1)) % 4 == 0:
+    if (1 + ((8 * n + 1) ** 0.5)) % 4 == 0:
         return True
     else:
         return False
@@ -269,11 +263,8 @@ This function determines, whether given number `n` is pentagonal, so if there is
 `k`, that `n = k(3k - 1) / 2`. This test was found on Wikipedia.
 ##### Implementation
 ```python
-import math
-
-
 def is_pentagonal(n):
-    if (1 + math.sqrt(24 * n + 1)) % 6 == 0:
+    if (1 + ((24 * n + 1) ** 0.5)) % 6 == 0:
         return True
     else:
         return False
@@ -307,14 +298,11 @@ def is_prime(n):
 This algorithm finds all distinct prime factors of given number.
 ##### Implementation I
 ```python
-import math
-
-
 def prime_factors(n):
     i = 2
     a = set()
 
-    while i < math.sqrt(n) or n == 1:
+    while i < n ** 0.5 or n == 1:
         if n % i == 0:
             n = n // i
             a.add(i)
@@ -328,14 +316,14 @@ def prime_factors(n):
 ```
 ##### Implementation II
 ```python
-import math
+from algorithms import count_item
 
 
 def prime_factors_list(n):
     i = 2
     a = []
 
-    while i < math.sqrt(n):
+    while i < n ** 0.5 + 1:
         while n % i == 0:
             n = n // i
             a.append(i)

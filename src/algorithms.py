@@ -1,7 +1,6 @@
 """
 This file contains useful reusable algorithms from all solutions.
 """
-import math
 
 
 # -----------------------
@@ -61,7 +60,7 @@ def divisors(n):
     :param n: an integer
     :return: list of divisors
     """
-    divs = [x for x in range(1, round(math.sqrt(n)) + 1) if n % x == 0]
+    divs = [x for x in range(1, round(n ** 0.5) + 1) if n % x == 0]
     divs += [n // x for x in divs]
     divs.sort()
 
@@ -127,7 +126,7 @@ def is_hexagonal(n):
     :return: True, if n is a hexagonal number, False otherwise
     """
     # this test for hexagonality was found online
-    if (1 + math.sqrt(8 * n + 1)) % 4 == 0:
+    if (1 + ((8 * n + 1) ** 0.5)) % 4 == 0:
         return True
     else:
         return False
@@ -141,7 +140,7 @@ def is_pentagonal(n):
     :return: True, if n is a pentagonal number, False otherwise
     """
     # this test for pentagonality was found online
-    if (1 + math.sqrt(24 * n + 1)) % 6 == 0:
+    if (1 + ((24 * n + 1) ** 0.5)) % 6 == 0:
         return True
     else:
         return False
@@ -248,7 +247,7 @@ def prime_factors(n):
     i = 2
     a = set()
 
-    while i < math.sqrt(n) or n == 1:
+    while i < n ** 0.5 or n == 1:
         if n % i == 0:
             n = n // i
             a.add(i)
@@ -270,7 +269,7 @@ def prime_factors_list(n):
     i = 2
     a = []
 
-    while i < math.sqrt(n):
+    while i < (n ** 0.5) + 1:
         while n % i == 0:
             n = n // i
             a.append(i)
