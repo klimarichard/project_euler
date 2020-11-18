@@ -23,6 +23,4 @@ factorials = [1, 1]
 for i in range(2, 101):
     factorials.append(i * factorials[-1])
 
-print(factorials)
-
 print(len(find_combinations(100, lower=23, threshold=1000000)))
