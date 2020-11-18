@@ -587,3 +587,24 @@ Find the value of <code>n</code>, <code>1 < n < 10<sup>7</sup></code>, for which
 <code>φ(n)</code> is a permutation of <code>n</code> and the ratio <code>n/φ(n)</code>
 produces a minimum.
 </p>
+
+### 71 - Ordered fractions
+Consider the fraction, `n/d`, where n and d are positive integers. If `n < d` and
+`HCF(n,d) = 1`, it is called a reduced proper fraction.\
+\
+If we list the set of reduced proper fractions for `d ≤ 8` in ascending order
+of size, we get:
+
+<p align="center">
+<code>1/8</code>, <code>1/7</code>, <code>1/6</code>, <code>1/5</code>,
+<code>1/4</code>, <code>2/7</code>, <code>1/3</code>, <code>3/8</code>,
+<code>2/5</code>, <code>3/7</code>, <code>1/2</code>, <code>4/7</code>,
+<code>3/5</code>, <code>5/8</code>, <code>2/3</code>, <code>5/7</code>,
+<code>3/4</code>, <code>4/5</code>, <code>5/6</code>, <code>6/7</code>,
+<code>7/8</code>
+</p>
+
+It can be seen that `2/5` is the fraction immediately to the left of `3/7`.\
+\
+By listing the set of reduced proper fractions for `d ≤ 1 000 000` in ascending
+order of size, find the numerator of the fraction immediately to the left of `3/7`.
