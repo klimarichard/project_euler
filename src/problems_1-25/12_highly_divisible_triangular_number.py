@@ -14,7 +14,7 @@ def first_triangular_with_more_divisors(k):
         current += n
         divs_count = divisors(current)
 
-        if divs_count < k:
+        if len(divs_count) < k:
             n += 1
         else:
             return current
