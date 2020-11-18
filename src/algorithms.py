@@ -307,6 +307,21 @@ def sum_of_proper_divisors(divisors):
     return sum(divisors[:-1])
 
 
+def totient(n):
+    """
+    Computes value of totient function of given number.
+    :param n: an integer
+    :return: value of the totient function
+    """
+    phi = 1
+    divs = prime_factors_list(n)
+
+    for p in range(len(divs)):
+        phi *= ((divs[p][0] ** (divs[p][1] - 1)) * (divs[p][0] - 1))
+
+    return phi
+
+
 # ---------------
 # LIST ALGORITHMS
 # ---------------

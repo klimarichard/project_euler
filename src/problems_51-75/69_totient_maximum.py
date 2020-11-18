@@ -1,4 +1,4 @@
-from algorithms import prime_factors_list
+from algorithms import totient
 
 
 def find_totient_ratio(n):
@@ -23,21 +23,6 @@ def find_totient_ratio(n):
             max_n = k
 
     return max_n
-
-
-def totient(n):
-    """
-    Computes value of totient function of given number.
-    :param n: an integer
-    :return: value of the totient function
-    """
-    phi = 1
-    divs = prime_factors_list(n)
-
-    for p in range(len(divs)):
-        phi *= ((divs[p][0] ** (divs[p][1] - 1)) * (divs[p][0] - 1))
-
-    return phi
 
 
 print(find_totient_ratio(1000000))

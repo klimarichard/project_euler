@@ -112,6 +112,37 @@ def eratosthenes(number):
 `eratosthenes(10000000)` finished in `1.421` s
 
 
+### Euler's totient function
+Computes the value of Euler's totient function for given number. By definition of
+Euler's totient function, it holds:
+
+<p align="center">
+<code>φ(n) = p<sub>1</sub><sup>k<sub>1</sub> - 1</sup> * (p<sub>1</sub> - 1) *
+p<sub>2</sub><sup>k<sub>2</sub> - 1</sup> * (p<sub>2</sub> - 1) * ... *
+p<sub>r</sub><sup>k<sub>r</sub> - 1</sup> * (p<sub>r</sub> - 1)</code>, for
+<code>n = p<sub>1</sub><sup>k<sub>1</sub></sup> *
+p<sub>2</sub><sup>k<sub>2</sub></sup> * ... *
+p<sub>r</sub><sup>k<sub>r</sub></sup></code>, where <code>p<sub>1</sub>,
+p<sub>2</sub>, ..., p<sub>r</sub></code> are pairwise distinct primes dividing
+<code>n</code>.
+</p>
+
+##### Implementation
+```python
+from algorithms import prime_factors_list
+
+
+def totient(n):
+    phi = 1
+    divs = prime_factors_list(n)
+
+    for p in range(len(divs)):
+        phi *= ((divs[p][0] ** (divs[p][1] - 1)) * (divs[p][0] - 1))
+
+    return phi
+```
+
+
 ### Factorial
 The factorial generator uses recursion for finding the solution, following the
 mathematical definition.
