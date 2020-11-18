@@ -97,7 +97,7 @@ def fact(n: int):
     :param n: an integer
     :return: factorial of n
     """
-    if n == 1:
+    if n == 0:
         return 1
     else:
         return n * fact(n - 1)
