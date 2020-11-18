@@ -9,7 +9,7 @@ def find_maximum_radius(n):
     max_solutions = 0
 
     for i in range(12, n + 1):
-        current_solutions = [(a, b, i - (a + b)) for a in range(1, i) for b in range(a, i - (a + 1))
+        current_solutions = [(a, b, i - (a + b)) for a in range(1, int(i / 3) + 1) for b in range(a, int(i / 2) + 1)
                              if a * a + b * b == (i - (a + b)) * (i - (a + b))]
 
         if len(current_solutions) > max_solutions:
