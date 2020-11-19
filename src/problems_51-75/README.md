@@ -677,3 +677,31 @@ non-repeating chain with a starting number below one million is sixty terms.\
 \
 How many chains, with a starting number below one million, contain exactly sixty
 non-repeating terms?
+
+### 75 - Singular integer right triangles
+It turns out that `12 cm` is the smallest length of wire that can be
+bent to form an integer sided right angle triangle in exactly one
+way, but there are many more examples.\
+
+<p>
+<code><b>12 cm:</b> (3,4,5)</code><br>
+<code><b>24 cm:</b> (6,8,10)</code><br>
+<code><b>30 cm:</b> (5,12,13)</code><br>
+<code><b>36 cm:</b> (9,12,15)</code><br>
+<code><b>40 cm:</b> (8,15,17)</code><br>
+<code><b>48 cm:</b> (12,16,20)</code>
+</p>
+
+In contrast, some lengths of wire, like `20 cm`, cannot be bent to
+form an integer sided right angle triangle, and other lengths allow
+more than one solution to be found; for example, using `120 cm` it
+is possible to form exactly three different integer sided right
+angle triangles.
+
+<p>
+<code><b>120 cm:</b> (30,40,50), (20,48,52), (24,45,51)</code>
+</p>
+
+Given that `L` is the length of the wire, for how many values of
+`L ≤ 1 500 000` can exactly one integer sided right angle triangle
+be formed?
