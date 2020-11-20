@@ -3,10 +3,10 @@ from algorithms import eratosthenes
 
 def find_primes_summations(n):
     """
-    Finds how many ways can given integer be written as a sum of
+    Finds how many ways can numbers up to given integer be written as a sum of
     at least two primes.
     :param n: an integer
-    :return: number of ways to write n as a summation of primes
+    :return: number of ways to write numbers 1 to n as a summation of primes
     """
     primes = eratosthenes(n)
 
