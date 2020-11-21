@@ -1,6 +1,3 @@
-from algorithms import gcd
-
-
 def compute_nth_iteration(n):
     """
     Computes n-th iteration of continued fraction for sqrt(2),
