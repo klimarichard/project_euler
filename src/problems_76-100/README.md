@@ -44,7 +44,7 @@ A common security method used for online banking is to ask the user for three
 random characters from a passcode. For example, if the passcode was `531278`, they
 may ask for the 2nd, 3rd, and 5th characters; the expected reply would be: `317`.\
 \
-The text file, [p079_keylog.txt](../../res/p079_keylog.txt), contains fifty
+The text file, [`p079_keylog.txt`](../../res/p079_keylog.txt), contains fifty
 successful login attempts.\
 \
 Given that the three characters are always asked for in order, analyse the file so
@@ -60,3 +60,16 @@ first one hundred decimal digits is `475`.\
 \
 For the first one hundred natural numbers, find the total of the digital sums of
 the first one hundred decimal digits for all the irrational square roots.
+
+### 81 - Path sum: two ways
+In the `5` by `5` matrix below, the minimal path sum from the top left to
+the bottom right, by only moving to the right and down, is indicated in bold and
+is equal to `2427`.\
+
+<p align="center">
+<img src="../../res/img/p081_matrix.png" alt="Example matrix" height="150"/>
+</p>
+
+Find the minimal path sum from the top left to the bottom right by only moving
+right and down in [`p081_matrix.txt`](../../res/p081_matrix.txt), a 31K text file
+containing an `80` by `80` matrix.
