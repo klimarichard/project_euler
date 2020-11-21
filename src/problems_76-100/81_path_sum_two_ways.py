@@ -20,9 +20,8 @@ def dijkstra_algorithm(matrix):
     # active vertices
     A = {(i, j) for i in range(distance.shape[0]) for j in range(distance.shape[1])}
 
-    # we know, that the graph is connected, so this is
-    # the only stopping condition
-    while len(A) > 0:
+    # we stop once we found the shortest path to the bottom right corner
+    while (distance.shape[0] - 1, distance.shape[1] - 1) in A:
         # 1) find graphs with minimal distance so far
         min_distance = infinity
         for v in A:
