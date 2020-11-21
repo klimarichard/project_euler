@@ -83,7 +83,7 @@ Consider the following five hands dealt to two players:
 <td>3C 3D 3S 9S 9D<br><i>Full House<br>with Three Threes</i></td><td>Player 1</td></tr>
 </table>
 
-The file, [poker.txt](../../res/p054_poker.txt), contains one-thousand random hands
+The file, [`p054_poker.txt`](../../res/p054_poker.txt), contains one-thousand random hands
 dealt to two players. Each line of the file contains ten cards (separated by a single
 space): the first five are Player 1's cards and the last five are Player 2's cards.
 You can assume that all hands are valid (no invalid characters or repeated cards),
@@ -211,7 +211,7 @@ method is using a sufficiently long password key for security, but short enough 
 be memorable.\
 \
 Your task has been made easy, as the encryption key consists of three lower case
-characters. Using [p059_cipher.txt](../../res/p059_cipher.txt), a file containing
+characters. Using [`p059_cipher.txt`](../../res/p059_cipher.txt), a file containing
 the encrypted ASCII codes, and the knowledge that the plain text must contain common
 English words, decrypt the message and find the sum of the ASCII values in
 the original text.
@@ -457,8 +457,9 @@ the row below, the maximum total from top to bottom is `23`.
 
 That is, `3 + 7 + 4 + 9 = 23`.\
 \
-Find the maximum total from top to bottom in [triangle.txt](../../res/p067_triangle.txt),
-a 15K text file containing a triangle with one-hundred rows.
+Find the maximum total from top to bottom in
+[`p067_triangle.txt`](../../res/p067_triangle.txt), a 15K text file containing
+a triangle with one-hundred rows.
 
 <p>
 <b>NOTE:</b> This is a much more difficult version of Problem 18. It is not possible

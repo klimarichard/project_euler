@@ -274,7 +274,7 @@ for SKY is <code>19 + 11 + 25 = 55 = t<sub>10</sub></code>. If the word value is
 a triangle number then we shall call the word a triangle word.
 </p>
 
-Using [p042_words.txt](../../res/p042_words.txt), a 16K text file
+Using [`p042_words.txt`](../../res/p042_words.txt), a 16K text file
 containing nearly two-thousand common English words, how many are triangle
 words?
 
