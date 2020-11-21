@@ -64,12 +64,27 @@ the first one hundred decimal digits for all the irrational square roots.
 ### 81 - Path sum: two ways
 In the `5` by `5` matrix below, the minimal path sum from the top left to
 the bottom right, by only moving to the right and down, is indicated in bold and
-is equal to `2427`.\
+is equal to `2427`.
 
 <p align="center">
-<img src="../../res/img/p081_matrix.png" alt="Example matrix" height="150"/>
+<img src="../../res/img/p081_matrix.png" alt="Example matrix" height="100"/>
 </p>
 
 Find the minimal path sum from the top left to the bottom right by only moving
 right and down in [`p081_matrix.txt`](../../res/p081_matrix.txt), a 31K text file
 containing an `80` by `80` matrix.
+
+### 82 - Path sum: three ways
+**NOTE:** This problem is a more challenging version of Problem 81.\
+\
+The minimal path sum in the `5` by `5` matrix below, by starting in any cell in
+the left column and finishing in any cell in the right column, and only moving up,
+down, and right, is indicated in red and bold; the sum is equal to `994`.
+
+<p align="center">
+<img src="../../res/img/p082_matrix.png" alt="Example matrix" height="100"/>
+</p>
+
+Find the minimal path sum from the left column to the right column in
+[`p082_matrix.txt`](../../res/p082_matrix.txt), a 31K text file containing an `80` by
+`80` matrix.
