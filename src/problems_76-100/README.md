@@ -88,3 +88,18 @@ down, and right, is indicated in bold; the sum is equal to `994`.
 Find the minimal path sum from the left column to the right column in
 [`p082_matrix.txt`](../../res/p082_matrix.txt), a 31K text file containing an `80` by
 `80` matrix.
+
+### 83 - Path sum: four ways
+**NOTE:** This problem is a significantly more challenging version of Problem 81.\
+\
+In the `5` by `5` matrix below, the minimal path sum from the top left to the bottom
+right, by moving left, right, up, and down, is indicated in bold and is equal to
+`2297`.
+
+<p align="center">
+<img src="../../res/img/p083_matrix.png" alt="Example matrix" height="100"/>
+</p>
+
+Find the minimal path sum from the top left to the bottom right by only moving
+left, right, up and down in [`p083_matrix.txt`](../../res/p083_matrix.txt), a 31K
+text file containing an `80` by `80` matrix.
