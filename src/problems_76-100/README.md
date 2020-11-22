@@ -79,7 +79,7 @@ containing an `80` by `80` matrix.
 \
 The minimal path sum in the `5` by `5` matrix below, by starting in any cell in
 the left column and finishing in any cell in the right column, and only moving up,
-down, and right, is indicated in red and bold; the sum is equal to `994`.
+down, and right, is indicated in bold; the sum is equal to `994`.
 
 <p align="center">
 <img src="../../res/img/p082_matrix.png" alt="Example matrix" height="100"/>
