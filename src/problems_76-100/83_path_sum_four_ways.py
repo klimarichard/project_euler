@@ -24,14 +24,17 @@ def dijkstra_algorithm(matrix):
     while (distance.shape[0] - 1, distance.shape[1] - 1) in A:
         # 1) find vertices with minimal distance so far
         min_distance = infinity
+        N = set()
         for v in A:
             current = distance[v]
 
             if current < min_distance:
+                N = {v}
                 min_distance = current
+            elif current == min_distance:
+                N |= {v}
 
-        # 2) find all vertices with minimal distance so far
-        N = {v for v in A if distance[v] == min_distance}
+        # 2) remove vertices with minimal distance so far from active vertices
         A -= N
 
         # 3) actualize values for neighbours of v in N
