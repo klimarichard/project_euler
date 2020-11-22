@@ -4,8 +4,7 @@ import numpy as np
 def minimal_top_bottom_path(matrix):
     """
     Computes the shortest path from the top left to the bottom right corner
-    of the matrix when moving only down or to the right with Dijkstra's
-    algorithm.
+    of the matrix when moving only down or to the right.
     :param matrix: a matrix with values on the path
     :return: length of the shortest path from top left to bottom right
     """
