@@ -164,3 +164,14 @@ So these three most popular squares can be listed with the six-digit modal strin
 \
 If, instead of using two `6`-sided dice, two `4`-sided dice are used, find the
 six-digit modal string.
+
+### 85 - Counting rectangles
+By counting carefully it can be seen that a rectangular grid measuring `3` by `2`
+contains eighteen rectangles:
+
+<p align="center">
+<img src="../../res/img/p085.png" alt="3 by 2 grid rectangles" height="150"/>
+</p>
+
+Although there exists no rectangular grid that contains exactly two million
+rectangles, find the area of the grid with the nearest solution.
