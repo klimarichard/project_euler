@@ -27,11 +27,11 @@ def find_non_writtable(upper, lower=1):
     abundants = find_abundant(upper)
     n = lower
 
-    writtables = set([x + y for x in abundants for y in abundants if x + y < upper])
+    writeables = set([x + y for x in abundants for y in abundants if x + y < upper])
 
-    non_writtables = set(range(28123)) - writtables
+    non_writeables = set(range(28123)) - writeables
 
-    return list(non_writtables)
+    return list(non_writeables)
 
 
 print(sum(find_non_writtable(28123)))
