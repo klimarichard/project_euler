@@ -13,7 +13,7 @@ def prime_power_triples(n):
     cubes = [p ** 3 for p in primes if p ** 3 < n]
     fourths = [p ** 4 for p in primes if p ** 4 < n]
 
-    satisfying = []
+    satisfying = set()
 
     for s in squares:
         for c in cubes:
@@ -21,7 +21,7 @@ def prime_power_triples(n):
                 if s + c + f > n:
                     break
 
-                satisfying.append(s + c + f)
+                satisfying |= {s + c + f}
 
     return sorted(set(satisfying))
 
