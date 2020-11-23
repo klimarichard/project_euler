@@ -197,3 +197,18 @@ solutions when `M = 99` is `1975`.\
 \
 Find the least value of `M` such that the number of solutions first exceeds one
 million.
+
+### 87 - Prime power triples
+The smallest number expressible as the sum of a prime square, prime cube, and
+prime fourth power is `28`. In fact, there are exactly four numbers below fifty
+that can be expressed in such a way:
+
+<p>
+<code>28 = 2<sup>2</sup> + 2<sup>3</sup> + 2<sup>4</sup></code><br>
+<code>33 = 3<sup>2</sup> + 2<sup>3</sup> + 2<sup>4</sup></code><br>
+<code>47 = 2<sup>2</sup> + 3<sup>3</sup> + 2<sup>4</sup></code><br>
+<code>49 = 5<sup>2</sup> + 2<sup>3</sup> + 2<sup>4</sup></code><br>
+</p>
+
+How many numbers below fifty million can be expressed as the sum of a prime square,
+prime cube, and prime fourth power?
